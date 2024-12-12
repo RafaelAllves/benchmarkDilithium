@@ -1,0 +1,605 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 0.00% complete, ETA 00:04:10
+# Fork: 1 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 230192.341 ns/op
+# Warmup Iteration   2: 89713.262 ns/op
+# Warmup Iteration   3: 77969.908 ns/op
+# Warmup Iteration   4: 67741.320 ns/op
+# Warmup Iteration   5: 66310.108 ns/op
+Iteration   1: 428865.135 ns/op
+Iteration   2: 255946.258 ns/op
+Iteration   3: 111258.993 ns/op
+Iteration   4: 73342.455 ns/op
+Iteration   5: 73650.153 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 4.00% complete, ETA 00:04:26
+# Fork: 2 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 127483.125 ns/op
+# Warmup Iteration   2: 67014.399 ns/op
+# Warmup Iteration   3: 61680.689 ns/op
+# Warmup Iteration   4: 61074.595 ns/op
+# Warmup Iteration   5: 58802.924 ns/op
+Iteration   1: 264434.025 ns/op
+Iteration   2: 77246.469 ns/op
+Iteration   3: 63766.818 ns/op
+Iteration   4: 63632.813 ns/op
+Iteration   5: 61953.850 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 8.00% complete, ETA 00:04:13
+# Fork: 3 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 164468.289 ns/op
+# Warmup Iteration   2: 72723.974 ns/op
+# Warmup Iteration   3: 65387.290 ns/op
+# Warmup Iteration   4: 62224.139 ns/op
+# Warmup Iteration   5: 62469.504 ns/op
+Iteration   1: 306008.162 ns/op
+Iteration   2: 158841.639 ns/op
+Iteration   3: 63434.732 ns/op
+Iteration   4: 61837.840 ns/op
+Iteration   5: 61290.258 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 12.00% complete, ETA 00:04:01
+# Fork: 4 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 115228.361 ns/op
+# Warmup Iteration   2: 69859.748 ns/op
+# Warmup Iteration   3: 64937.965 ns/op
+# Warmup Iteration   4: 63256.126 ns/op
+# Warmup Iteration   5: 61681.290 ns/op
+Iteration   1: 285254.025 ns/op
+Iteration   2: 90984.594 ns/op
+Iteration   3: 64059.103 ns/op
+Iteration   4: 62646.302 ns/op
+Iteration   5: 61742.694 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 16.00% complete, ETA 00:03:49
+# Fork: 5 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 153937.791 ns/op
+# Warmup Iteration   2: 68915.902 ns/op
+# Warmup Iteration   3: 66069.030 ns/op
+# Warmup Iteration   4: 61929.509 ns/op
+# Warmup Iteration   5: 60364.562 ns/op
+Iteration   1: 343637.676 ns/op
+Iteration   2: 189913.056 ns/op
+Iteration   3: 68128.376 ns/op
+Iteration   4: 68215.306 ns/op
+Iteration   5: 64566.423 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  136986.286 ±(99.9%) 82471.457 ns/op [Average]
+  (min, avg, max) = (61290.258, 136986.286, 428865.135), stdev = 110097.036
+  CI (99.9%): [54514.829, 219457.743] (assumes normal distribution)
+
+Secondary result "org.sample.ECDSABenchmark.benchmarkKeyGeneration:jfr":
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkKeyGeneration-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkKeyGeneration-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkKeyGeneration-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkKeyGeneration-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkKeyGeneration-AverageTime/profile.jfr
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 20.00% complete, ETA 00:03:38
+# Fork: 1 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 369157.707 ns/op
+# Warmup Iteration   2: 308089.410 ns/op
+# Warmup Iteration   3: 349501.340 ns/op
+# Warmup Iteration   4: 278849.992 ns/op
+# Warmup Iteration   5: 282121.835 ns/op
+Iteration   1: 973098.664 ns/op
+Iteration   2: 434753.075 ns/op
+Iteration   3: 318201.734 ns/op
+Iteration   4: 300093.388 ns/op
+Iteration   5: 294593.714 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 24.00% complete, ETA 00:03:27
+# Fork: 2 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 458248.593 ns/op
+# Warmup Iteration   2: 314499.512 ns/op
+# Warmup Iteration   3: 289035.291 ns/op
+# Warmup Iteration   4: 277192.460 ns/op
+# Warmup Iteration   5: 279707.385 ns/op
+Iteration   1: 965045.452 ns/op
+Iteration   2: 376587.332 ns/op
+Iteration   3: 306659.554 ns/op
+Iteration   4: 294442.285 ns/op
+Iteration   5: 284218.315 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 28.00% complete, ETA 00:03:16
+# Fork: 3 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 414191.884 ns/op
+# Warmup Iteration   2: 315646.869 ns/op
+# Warmup Iteration   3: 298072.443 ns/op
+# Warmup Iteration   4: 277343.407 ns/op
+# Warmup Iteration   5: 309737.080 ns/op
+Iteration   1: 674847.041 ns/op
+Iteration   2: 325439.031 ns/op
+Iteration   3: 293563.542 ns/op
+Iteration   4: 292642.752 ns/op
+Iteration   5: 300064.896 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 32.00% complete, ETA 00:03:05
+# Fork: 4 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 443792.831 ns/op
+# Warmup Iteration   2: 309383.385 ns/op
+# Warmup Iteration   3: 306571.741 ns/op
+# Warmup Iteration   4: 278257.356 ns/op
+# Warmup Iteration   5: 275693.641 ns/op
+Iteration   1: 1123086.763 ns/op
+Iteration   2: 430328.863 ns/op
+Iteration   3: 303625.511 ns/op
+Iteration   4: 295242.320 ns/op
+Iteration   5: 311789.293 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 36.00% complete, ETA 00:02:54
+# Fork: 5 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 392747.377 ns/op
+# Warmup Iteration   2: 305322.109 ns/op
+# Warmup Iteration   3: 285179.224 ns/op
+# Warmup Iteration   4: 284126.529 ns/op
+# Warmup Iteration   5: 304672.550 ns/op
+Iteration   1: 1093939.103 ns/op
+Iteration   2: 488303.565 ns/op
+Iteration   3: 296931.763 ns/op
+Iteration   4: 291526.924 ns/op
+Iteration   5: 293339.755 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  454494.585 ±(99.9%) 206572.118 ns/op [Average]
+  (min, avg, max) = (284218.315, 454494.585, 1123086.763), stdev = 275767.867
+  CI (99.9%): [247922.468, 661066.703] (assumes normal distribution)
+
+Secondary result "org.sample.ECDSABenchmark.benchmarkSigning:jfr":
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkSigning-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkSigning-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkSigning-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkSigning-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkSigning-AverageTime/profile.jfr
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 40.00% complete, ETA 00:02:43
+# Fork: 1 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 655417.812 ns/op
+# Warmup Iteration   2: 564161.470 ns/op
+# Warmup Iteration   3: 510236.470 ns/op
+# Warmup Iteration   4: 504044.079 ns/op
+# Warmup Iteration   5: 515270.307 ns/op
+Iteration   1: 2095557.924 ns/op
+Iteration   2: 1013905.011 ns/op
+Iteration   3: 719866.222 ns/op
+Iteration   4: 563323.007 ns/op
+Iteration   5: 530830.022 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 44.00% complete, ETA 00:02:32
+# Fork: 2 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 859727.747 ns/op
+# Warmup Iteration   2: 563015.465 ns/op
+# Warmup Iteration   3: 521710.139 ns/op
+# Warmup Iteration   4: 487870.854 ns/op
+# Warmup Iteration   5: 528215.110 ns/op
+Iteration   1: 1622703.590 ns/op
+Iteration   2: 653908.184 ns/op
+Iteration   3: 745143.656 ns/op
+Iteration   4: 580570.701 ns/op
+Iteration   5: 545052.143 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 48.00% complete, ETA 00:02:21
+# Fork: 3 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 718579.972 ns/op
+# Warmup Iteration   2: 630880.260 ns/op
+# Warmup Iteration   3: 524679.760 ns/op
+# Warmup Iteration   4: 548964.238 ns/op
+# Warmup Iteration   5: 557369.320 ns/op
+Iteration   1: 1900164.649 ns/op
+Iteration   2: 789949.063 ns/op
+Iteration   3: 619814.559 ns/op
+Iteration   4: 610461.460 ns/op
+Iteration   5: 563542.711 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 52.00% complete, ETA 00:02:10
+# Fork: 4 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 758079.367 ns/op
+# Warmup Iteration   2: 603492.503 ns/op
+# Warmup Iteration   3: 530360.610 ns/op
+# Warmup Iteration   4: 507988.811 ns/op
+# Warmup Iteration   5: 512617.720 ns/op
+Iteration   1: 1670750.706 ns/op
+Iteration   2: 865556.059 ns/op
+Iteration   3: 598978.451 ns/op
+Iteration   4: 556974.458 ns/op
+Iteration   5: 537647.143 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 56.00% complete, ETA 00:01:59
+# Fork: 5 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 710610.041 ns/op
+# Warmup Iteration   2: 555999.287 ns/op
+# Warmup Iteration   3: 524864.871 ns/op
+# Warmup Iteration   4: 510061.587 ns/op
+# Warmup Iteration   5: 548436.078 ns/op
+Iteration   1: 1696260.120 ns/op
+Iteration   2: 908235.041 ns/op
+Iteration   3: 716228.799 ns/op
+Iteration   4: 574311.858 ns/op
+Iteration   5: 576731.231 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  890258.671 ±(99.9%) 363714.043 ns/op [Average]
+  (min, avg, max) = (530830.022, 890258.671, 2095557.924), stdev = 485547.841
+  CI (99.9%): [526544.628, 1253972.713] (assumes normal distribution)
+
+Secondary result "org.sample.ECDSABenchmark.benchmarkVerification:jfr":
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkVerification-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkVerification-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkVerification-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkVerification-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.benchmarkVerification-AverageTime/profile.jfr
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 60.00% complete, ETA 00:01:48
+# Fork: 1 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 50387.104 ns/op
+# Warmup Iteration   2: 13361.683 ns/op
+# Warmup Iteration   3: 5570.808 ns/op
+# Warmup Iteration   4: 5216.575 ns/op
+# Warmup Iteration   5: 5136.737 ns/op
+Iteration   1: 105492.800 ns/op
+Iteration   2: 17129.414 ns/op
+Iteration   3: 3492.509 ns/op
+Iteration   4: 4155.825 ns/op
+Iteration   5: 3100.462 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 64.00% complete, ETA 00:01:37
+# Fork: 2 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 36829.048 ns/op
+# Warmup Iteration   2: 9924.705 ns/op
+# Warmup Iteration   3: 7438.607 ns/op
+# Warmup Iteration   4: 7017.155 ns/op
+# Warmup Iteration   5: 3231.896 ns/op
+Iteration   1: 94485.398 ns/op
+Iteration   2: 7900.813 ns/op
+Iteration   3: 3081.318 ns/op
+Iteration   4: 3120.791 ns/op
+Iteration   5: 3523.625 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 68.00% complete, ETA 00:01:27
+# Fork: 3 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 44033.981 ns/op
+# Warmup Iteration   2: 8227.174 ns/op
+# Warmup Iteration   3: 5685.204 ns/op
+# Warmup Iteration   4: 5120.338 ns/op
+# Warmup Iteration   5: 3397.839 ns/op
+Iteration   1: 129765.099 ns/op
+Iteration   2: 31585.681 ns/op
+Iteration   3: 5575.976 ns/op
+Iteration   4: 2893.340 ns/op
+Iteration   5: 3155.444 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 72.00% complete, ETA 00:01:16
+# Fork: 4 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 25651.277 ns/op
+# Warmup Iteration   2: 8317.587 ns/op
+# Warmup Iteration   3: 6666.282 ns/op
+# Warmup Iteration   4: 7814.053 ns/op
+# Warmup Iteration   5: 2834.703 ns/op
+Iteration   1: 127371.264 ns/op
+Iteration   2: 12903.621 ns/op
+Iteration   3: 2784.603 ns/op
+Iteration   4: 2881.700 ns/op
+Iteration   5: 3200.640 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 76.00% complete, ETA 00:01:05
+# Fork: 5 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 35670.360 ns/op
+# Warmup Iteration   2: 7049.693 ns/op
+# Warmup Iteration   3: 6954.492 ns/op
+# Warmup Iteration   4: 6945.736 ns/op
+# Warmup Iteration   5: 3953.045 ns/op
+Iteration   1: 125144.688 ns/op
+Iteration   2: 12203.799 ns/op
+Iteration   3: 3921.641 ns/op
+Iteration   4: 4058.643 ns/op
+Iteration   5: 3354.942 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  28651.361 ±(99.9%) 34230.230 ns/op [Average]
+  (min, avg, max) = (2784.603, 28651.361, 129765.099), stdev = 45696.377
+  CI (99.9%): [≈ 0, 62881.591] (assumes normal distribution)
+
+Secondary result "org.sample.ECDSABenchmark.measureCpuUsage:jfr":
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureCpuUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureCpuUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureCpuUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureCpuUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureCpuUsage-AverageTime/profile.jfr
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 80.00% complete, ETA 00:00:54
+# Fork: 1 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 101124.081 ns/op
+# Warmup Iteration   2: 18755.414 ns/op
+# Warmup Iteration   3: 9105.186 ns/op
+# Warmup Iteration   4: 7462.625 ns/op
+# Warmup Iteration   5: 4434.248 ns/op
+Iteration   1: 181982.218 ns/op
+Iteration   2: 56917.381 ns/op
+Iteration   3: 23629.816 ns/op
+Iteration   4: 9102.377 ns/op
+Iteration   5: 5761.580 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 84.00% complete, ETA 00:00:43
+# Fork: 2 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 75703.484 ns/op
+# Warmup Iteration   2: 12385.588 ns/op
+# Warmup Iteration   3: 11341.408 ns/op
+# Warmup Iteration   4: 7024.826 ns/op
+# Warmup Iteration   5: 10041.206 ns/op
+Iteration   1: 168883.423 ns/op
+Iteration   2: 22720.591 ns/op
+Iteration   3: 9869.879 ns/op
+Iteration   4: 4137.714 ns/op
+Iteration   5: 4193.963 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 88.00% complete, ETA 00:00:32
+# Fork: 3 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 47122.157 ns/op
+# Warmup Iteration   2: 10797.072 ns/op
+# Warmup Iteration   3: 5969.503 ns/op
+# Warmup Iteration   4: 6744.595 ns/op
+# Warmup Iteration   5: 3328.918 ns/op
+Iteration   1: 121844.121 ns/op
+Iteration   2: 12854.442 ns/op
+Iteration   3: 3833.584 ns/op
+Iteration   4: 3428.587 ns/op
+Iteration   5: 3716.025 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 92.00% complete, ETA 00:00:21
+# Fork: 4 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 31014.524 ns/op
+# Warmup Iteration   2: 9837.397 ns/op
+# Warmup Iteration   3: 8470.974 ns/op
+# Warmup Iteration   4: 15848.400 ns/op
+# Warmup Iteration   5: 5552.383 ns/op
+Iteration   1: 114818.257 ns/op
+Iteration   2: 38310.155 ns/op
+Iteration   3: 9318.912 ns/op
+Iteration   4: 4979.956 ns/op
+Iteration   5: 4701.935 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+# Run progress: 96.00% complete, ETA 00:00:10
+# Fork: 5 of 5
+# Preparing profilers: JavaFlightRecorderProfiler 
+# Warmup Iteration   1: 32143.780 ns/op
+# Warmup Iteration   2: 7466.648 ns/op
+# Warmup Iteration   3: 7489.117 ns/op
+# Warmup Iteration   4: 6800.888 ns/op
+# Warmup Iteration   5: 5051.954 ns/op
+Iteration   1: 163017.928 ns/op
+Iteration   2: 20110.141 ns/op
+Iteration   3: 5808.037 ns/op
+Iteration   4: 4201.840 ns/op
+Iteration   5: 3695.491 ns/op
+                 jfr: (text only)
+
+# Processing profiler results: JavaFlightRecorderProfiler 
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  40073.534 ±(99.9%) 44034.255 ns/op [Average]
+  (min, avg, max) = (3428.587, 40073.534, 181982.218), stdev = 58784.471
+  CI (99.9%): [≈ 0, 84107.789] (assumes normal distribution)
+
+Secondary result "org.sample.ECDSABenchmark.measureMemoryUsage:jfr":
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureMemoryUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureMemoryUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureMemoryUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureMemoryUsage-AverageTime/profile.jfr
+JFR profiler results:
+  /home/rafael/unicamp/master/test/org.sample.ECDSABenchmark.measureMemoryUsage-AverageTime/profile.jfr
+
+
+# Run complete. Total time: 00:04:32
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                  Mode  Cnt       Score        Error  Units
+ECDSABenchmark.benchmarkKeyGeneration      avgt   25  136986.286 ±  82471.457  ns/op
+ECDSABenchmark.benchmarkKeyGeneration:jfr  avgt              NaN                 ---
+ECDSABenchmark.benchmarkSigning            avgt   25  454494.585 ± 206572.118  ns/op
+ECDSABenchmark.benchmarkSigning:jfr        avgt              NaN                 ---
+ECDSABenchmark.benchmarkVerification       avgt   25  890258.671 ± 363714.043  ns/op
+ECDSABenchmark.benchmarkVerification:jfr   avgt              NaN                 ---
+ECDSABenchmark.measureCpuUsage             avgt   25   28651.361 ±  34230.230  ns/op
+ECDSABenchmark.measureCpuUsage:jfr         avgt              NaN                 ---
+ECDSABenchmark.measureMemoryUsage          avgt   25   40073.534 ±  44034.255  ns/op
+ECDSABenchmark.measureMemoryUsage:jfr      avgt              NaN                 ---

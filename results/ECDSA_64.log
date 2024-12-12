@@ -1,0 +1,2899 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 0.00% complete, ETA 02:05:00
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+# Run progress: 1.33% complete, ETA 02:03:35
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+# Run progress: 2.67% complete, ETA 02:01:55
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+# Run progress: 4.00% complete, ETA 02:00:15
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+# Run progress: 5.33% complete, ETA 01:58:38
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  ≈ 10⁻⁵ ops/ns
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 6.67% complete, ETA 01:57:00
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+# Run progress: 8.00% complete, ETA 01:55:20
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 9.33% complete, ETA 01:53:39
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 10.67% complete, ETA 01:51:58
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 12.00% complete, ETA 01:50:19
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁵ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁵ ops/ns
+Iteration   1: ≈ 10⁻⁵ ops/ns
+Iteration   2: ≈ 10⁻⁵ ops/ns
+Iteration   3: ≈ 10⁻⁵ ops/ns
+Iteration   4: ≈ 10⁻⁵ ops/ns
+Iteration   5: ≈ 10⁻⁵ ops/ns
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  ≈ 10⁻⁶ ops/ns
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 13.33% complete, ETA 01:48:39
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 14.67% complete, ETA 01:46:58
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 16.00% complete, ETA 01:45:17
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 17.33% complete, ETA 01:43:36
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+# Run progress: 18.67% complete, ETA 01:41:56
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   2: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   3: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   4: ≈ 10⁻⁶ ops/ns
+# Warmup Iteration   5: ≈ 10⁻⁶ ops/ns
+Iteration   1: ≈ 10⁻⁶ ops/ns
+Iteration   2: ≈ 10⁻⁶ ops/ns
+Iteration   3: ≈ 10⁻⁶ ops/ns
+Iteration   4: ≈ 10⁻⁶ ops/ns
+Iteration   5: ≈ 10⁻⁶ ops/ns
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  ≈ 10⁻⁶ ops/ns
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 20.00% complete, ETA 01:40:15
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 21.33% complete, ETA 01:38:34
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 22.67% complete, ETA 01:36:54
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 24.00% complete, ETA 01:35:14
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 25.33% complete, ETA 01:33:33
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  ≈ 10⁻³ ops/ns
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 26.67% complete, ETA 01:31:53
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 28.00% complete, ETA 01:30:12
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 29.33% complete, ETA 01:28:32
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻⁴ ops/ns
+Iteration   2: ≈ 10⁻⁴ ops/ns
+Iteration   3: ≈ 10⁻⁴ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 30.67% complete, ETA 01:26:52
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+# Run progress: 32.00% complete, ETA 01:25:11
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁴ ops/ns
+# Warmup Iteration   2: ≈ 10⁻³ ops/ns
+# Warmup Iteration   3: ≈ 10⁻³ ops/ns
+# Warmup Iteration   4: ≈ 10⁻³ ops/ns
+# Warmup Iteration   5: ≈ 10⁻³ ops/ns
+Iteration   1: ≈ 10⁻³ ops/ns
+Iteration   2: ≈ 10⁻³ ops/ns
+Iteration   3: ≈ 10⁻³ ops/ns
+Iteration   4: ≈ 10⁻³ ops/ns
+Iteration   5: ≈ 10⁻³ ops/ns
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  ≈ 10⁻³ ops/ns
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 33.33% complete, ETA 01:23:31
+# Fork: 1 of 5
+# Warmup Iteration   1: 67827.504 ns/op
+# Warmup Iteration   2: 63625.355 ns/op
+# Warmup Iteration   3: 62775.822 ns/op
+# Warmup Iteration   4: 63608.187 ns/op
+# Warmup Iteration   5: 62120.328 ns/op
+Iteration   1: 61503.062 ns/op
+Iteration   2: 62217.044 ns/op
+Iteration   3: 61719.043 ns/op
+Iteration   4: 61317.520 ns/op
+Iteration   5: 61868.441 ns/op
+
+# Run progress: 34.67% complete, ETA 01:21:51
+# Fork: 2 of 5
+# Warmup Iteration   1: 65982.170 ns/op
+# Warmup Iteration   2: 60582.545 ns/op
+# Warmup Iteration   3: 59900.893 ns/op
+# Warmup Iteration   4: 59672.932 ns/op
+# Warmup Iteration   5: 60077.092 ns/op
+Iteration   1: 59826.699 ns/op
+Iteration   2: 60035.703 ns/op
+Iteration   3: 61418.498 ns/op
+Iteration   4: 63003.308 ns/op
+Iteration   5: 60163.372 ns/op
+
+# Run progress: 36.00% complete, ETA 01:20:10
+# Fork: 3 of 5
+# Warmup Iteration   1: 67778.513 ns/op
+# Warmup Iteration   2: 61714.123 ns/op
+# Warmup Iteration   3: 60602.022 ns/op
+# Warmup Iteration   4: 60604.307 ns/op
+# Warmup Iteration   5: 60504.422 ns/op
+Iteration   1: 60383.591 ns/op
+Iteration   2: 60747.946 ns/op
+Iteration   3: 60498.597 ns/op
+Iteration   4: 60935.320 ns/op
+Iteration   5: 60486.143 ns/op
+
+# Run progress: 37.33% complete, ETA 01:18:30
+# Fork: 4 of 5
+# Warmup Iteration   1: 66709.402 ns/op
+# Warmup Iteration   2: 61673.526 ns/op
+# Warmup Iteration   3: 60528.295 ns/op
+# Warmup Iteration   4: 60515.234 ns/op
+# Warmup Iteration   5: 60723.500 ns/op
+Iteration   1: 60122.847 ns/op
+Iteration   2: 60960.246 ns/op
+Iteration   3: 59964.138 ns/op
+Iteration   4: 60745.809 ns/op
+Iteration   5: 61163.200 ns/op
+
+# Run progress: 38.67% complete, ETA 01:16:50
+# Fork: 5 of 5
+# Warmup Iteration   1: 66624.810 ns/op
+# Warmup Iteration   2: 60551.080 ns/op
+# Warmup Iteration   3: 59882.968 ns/op
+# Warmup Iteration   4: 60078.183 ns/op
+# Warmup Iteration   5: 60740.096 ns/op
+Iteration   1: 60931.973 ns/op
+Iteration   2: 60191.101 ns/op
+Iteration   3: 59936.496 ns/op
+Iteration   4: 62851.305 ns/op
+Iteration   5: 58044.661 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  60841.443 ±(99.9%) 787.460 ns/op [Average]
+  (min, avg, max) = (58044.661, 60841.443, 63003.308), stdev = 1051.236
+  CI (99.9%): [60053.983, 61628.902] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 40.00% complete, ETA 01:15:10
+# Fork: 1 of 5
+# Warmup Iteration   1: 267904.738 ns/op
+# Warmup Iteration   2: 254869.333 ns/op
+# Warmup Iteration   3: 259148.661 ns/op
+# Warmup Iteration   4: 258027.230 ns/op
+# Warmup Iteration   5: 264534.871 ns/op
+Iteration   1: 257561.201 ns/op
+Iteration   2: 251493.397 ns/op
+Iteration   3: 252623.426 ns/op
+Iteration   4: 249926.102 ns/op
+Iteration   5: 250784.145 ns/op
+
+# Run progress: 41.33% complete, ETA 01:13:29
+# Fork: 2 of 5
+# Warmup Iteration   1: 260068.488 ns/op
+# Warmup Iteration   2: 249863.785 ns/op
+# Warmup Iteration   3: 252066.137 ns/op
+# Warmup Iteration   4: 277786.041 ns/op
+# Warmup Iteration   5: 289853.330 ns/op
+Iteration   1: 283061.670 ns/op
+Iteration   2: 289573.468 ns/op
+Iteration   3: 289944.476 ns/op
+Iteration   4: 282243.918 ns/op
+Iteration   5: 259511.671 ns/op
+
+# Run progress: 42.67% complete, ETA 01:11:49
+# Fork: 3 of 5
+# Warmup Iteration   1: 262381.402 ns/op
+# Warmup Iteration   2: 251777.460 ns/op
+# Warmup Iteration   3: 251441.114 ns/op
+# Warmup Iteration   4: 250322.345 ns/op
+# Warmup Iteration   5: 253230.151 ns/op
+Iteration   1: 251898.481 ns/op
+Iteration   2: 249723.769 ns/op
+Iteration   3: 250178.617 ns/op
+Iteration   4: 250361.051 ns/op
+Iteration   5: 250921.515 ns/op
+
+# Run progress: 44.00% complete, ETA 01:10:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 265994.110 ns/op
+# Warmup Iteration   2: 251969.997 ns/op
+# Warmup Iteration   3: 251350.098 ns/op
+# Warmup Iteration   4: 251357.422 ns/op
+# Warmup Iteration   5: 251570.750 ns/op
+Iteration   1: 252160.530 ns/op
+Iteration   2: 251817.893 ns/op
+Iteration   3: 251584.883 ns/op
+Iteration   4: 251485.169 ns/op
+Iteration   5: 251117.767 ns/op
+
+# Run progress: 45.33% complete, ETA 01:08:29
+# Fork: 5 of 5
+# Warmup Iteration   1: 262684.440 ns/op
+# Warmup Iteration   2: 256839.175 ns/op
+# Warmup Iteration   3: 257654.885 ns/op
+# Warmup Iteration   4: 252243.415 ns/op
+# Warmup Iteration   5: 251664.062 ns/op
+Iteration   1: 251011.622 ns/op
+Iteration   2: 253532.947 ns/op
+Iteration   3: 252534.389 ns/op
+Iteration   4: 250815.624 ns/op
+Iteration   5: 252552.140 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  257536.795 ±(99.9%) 9763.690 ns/op [Average]
+  (min, avg, max) = (249723.769, 257536.795, 289944.476), stdev = 13034.247
+  CI (99.9%): [247773.105, 267300.485] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 46.67% complete, ETA 01:06:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 444613.771 ns/op
+# Warmup Iteration   2: 426078.463 ns/op
+# Warmup Iteration   3: 426244.641 ns/op
+# Warmup Iteration   4: 426329.193 ns/op
+# Warmup Iteration   5: 428570.763 ns/op
+Iteration   1: 426912.943 ns/op
+Iteration   2: 424574.775 ns/op
+Iteration   3: 424674.661 ns/op
+Iteration   4: 424285.484 ns/op
+Iteration   5: 426152.091 ns/op
+
+# Run progress: 48.00% complete, ETA 01:05:08
+# Fork: 2 of 5
+# Warmup Iteration   1: 482218.133 ns/op
+# Warmup Iteration   2: 438853.003 ns/op
+# Warmup Iteration   3: 436590.957 ns/op
+# Warmup Iteration   4: 435174.048 ns/op
+# Warmup Iteration   5: 438255.272 ns/op
+Iteration   1: 446348.779 ns/op
+Iteration   2: 446659.764 ns/op
+Iteration   3: 435934.276 ns/op
+Iteration   4: 435433.414 ns/op
+Iteration   5: 433843.582 ns/op
+
+# Run progress: 49.33% complete, ETA 01:03:28
+# Fork: 3 of 5
+# Warmup Iteration   1: 448574.289 ns/op
+# Warmup Iteration   2: 423862.307 ns/op
+# Warmup Iteration   3: 426903.868 ns/op
+# Warmup Iteration   4: 426450.400 ns/op
+# Warmup Iteration   5: 424598.701 ns/op
+Iteration   1: 423814.352 ns/op
+Iteration   2: 428733.466 ns/op
+Iteration   3: 424863.486 ns/op
+Iteration   4: 425352.736 ns/op
+Iteration   5: 423445.007 ns/op
+
+# Run progress: 50.67% complete, ETA 01:01:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 454717.163 ns/op
+# Warmup Iteration   2: 430564.922 ns/op
+# Warmup Iteration   3: 430085.100 ns/op
+# Warmup Iteration   4: 431702.247 ns/op
+# Warmup Iteration   5: 431712.964 ns/op
+Iteration   1: 431844.396 ns/op
+Iteration   2: 428349.372 ns/op
+Iteration   3: 431000.489 ns/op
+Iteration   4: 431620.246 ns/op
+Iteration   5: 432449.227 ns/op
+
+# Run progress: 52.00% complete, ETA 01:00:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 459502.139 ns/op
+# Warmup Iteration   2: 434015.985 ns/op
+# Warmup Iteration   3: 432711.655 ns/op
+# Warmup Iteration   4: 431054.319 ns/op
+# Warmup Iteration   5: 432242.622 ns/op
+Iteration   1: 436397.812 ns/op
+Iteration   2: 431780.226 ns/op
+Iteration   3: 433123.600 ns/op
+Iteration   4: 432101.556 ns/op
+Iteration   5: 430927.742 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  430824.939 ±(99.9%) 4657.500 ns/op [Average]
+  (min, avg, max) = (423445.007, 430824.939, 446659.764), stdev = 6217.629
+  CI (99.9%): [426167.439, 435482.439] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 53.33% complete, ETA 00:58:27
+# Fork: 1 of 5
+# Warmup Iteration   1: 3318.084 ns/op
+# Warmup Iteration   2: 2110.207 ns/op
+# Warmup Iteration   3: 1978.299 ns/op
+# Warmup Iteration   4: 1866.264 ns/op
+# Warmup Iteration   5: 1854.681 ns/op
+Iteration   1: 1833.573 ns/op
+Iteration   2: 1854.501 ns/op
+Iteration   3: 1809.573 ns/op
+Iteration   4: 1802.049 ns/op
+Iteration   5: 1816.278 ns/op
+
+# Run progress: 54.67% complete, ETA 00:56:47
+# Fork: 2 of 5
+# Warmup Iteration   1: 3094.828 ns/op
+# Warmup Iteration   2: 2082.775 ns/op
+# Warmup Iteration   3: 1959.345 ns/op
+# Warmup Iteration   4: 1922.142 ns/op
+# Warmup Iteration   5: 1849.892 ns/op
+Iteration   1: 1852.092 ns/op
+Iteration   2: 1875.258 ns/op
+Iteration   3: 1848.883 ns/op
+Iteration   4: 1879.880 ns/op
+Iteration   5: 1943.091 ns/op
+
+# Run progress: 56.00% complete, ETA 00:55:06
+# Fork: 3 of 5
+# Warmup Iteration   1: 3263.855 ns/op
+# Warmup Iteration   2: 2122.565 ns/op
+# Warmup Iteration   3: 1958.945 ns/op
+# Warmup Iteration   4: 1902.956 ns/op
+# Warmup Iteration   5: 1870.089 ns/op
+Iteration   1: 1867.396 ns/op
+Iteration   2: 1856.953 ns/op
+Iteration   3: 1839.753 ns/op
+Iteration   4: 1847.789 ns/op
+Iteration   5: 1853.817 ns/op
+
+# Run progress: 57.33% complete, ETA 00:53:26
+# Fork: 4 of 5
+# Warmup Iteration   1: 3172.773 ns/op
+# Warmup Iteration   2: 2071.916 ns/op
+# Warmup Iteration   3: 1952.935 ns/op
+# Warmup Iteration   4: 1874.074 ns/op
+# Warmup Iteration   5: 1832.396 ns/op
+Iteration   1: 1801.321 ns/op
+Iteration   2: 1954.274 ns/op
+Iteration   3: 1842.096 ns/op
+Iteration   4: 1837.553 ns/op
+Iteration   5: 1857.635 ns/op
+
+# Run progress: 58.67% complete, ETA 00:51:46
+# Fork: 5 of 5
+# Warmup Iteration   1: 2987.592 ns/op
+# Warmup Iteration   2: 2064.866 ns/op
+# Warmup Iteration   3: 1934.220 ns/op
+# Warmup Iteration   4: 1868.801 ns/op
+# Warmup Iteration   5: 1845.723 ns/op
+Iteration   1: 1821.163 ns/op
+Iteration   2: 1777.962 ns/op
+Iteration   3: 1779.030 ns/op
+Iteration   4: 1813.875 ns/op
+Iteration   5: 1862.428 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  1845.129 ±(99.9%) 31.142 ns/op [Average]
+  (min, avg, max) = (1777.962, 1845.129, 1954.274), stdev = 41.574
+  CI (99.9%): [1813.987, 1876.271] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 60.00% complete, ETA 00:50:06
+# Fork: 1 of 5
+# Warmup Iteration   1: 3221.738 ns/op
+# Warmup Iteration   2: 2237.176 ns/op
+# Warmup Iteration   3: 2067.849 ns/op
+# Warmup Iteration   4: 1979.742 ns/op
+# Warmup Iteration   5: 1991.965 ns/op
+Iteration   1: 2009.958 ns/op
+Iteration   2: 1952.358 ns/op
+Iteration   3: 1973.083 ns/op
+Iteration   4: 1934.908 ns/op
+Iteration   5: 1951.314 ns/op
+
+# Run progress: 61.33% complete, ETA 00:48:26
+# Fork: 2 of 5
+# Warmup Iteration   1: 3209.139 ns/op
+# Warmup Iteration   2: 2211.940 ns/op
+# Warmup Iteration   3: 2103.420 ns/op
+# Warmup Iteration   4: 1962.359 ns/op
+# Warmup Iteration   5: 1956.352 ns/op
+Iteration   1: 1935.962 ns/op
+Iteration   2: 2006.820 ns/op
+Iteration   3: 1971.090 ns/op
+Iteration   4: 1978.652 ns/op
+Iteration   5: 1963.982 ns/op
+
+# Run progress: 62.67% complete, ETA 00:46:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 3103.043 ns/op
+# Warmup Iteration   2: 2158.606 ns/op
+# Warmup Iteration   3: 2074.428 ns/op
+# Warmup Iteration   4: 2011.247 ns/op
+# Warmup Iteration   5: 2046.150 ns/op
+Iteration   1: 1996.011 ns/op
+Iteration   2: 2031.241 ns/op
+Iteration   3: 1947.579 ns/op
+Iteration   4: 1961.193 ns/op
+Iteration   5: 2064.267 ns/op
+
+# Run progress: 64.00% complete, ETA 00:45:05
+# Fork: 4 of 5
+# Warmup Iteration   1: 3241.631 ns/op
+# Warmup Iteration   2: 2192.286 ns/op
+# Warmup Iteration   3: 1992.376 ns/op
+# Warmup Iteration   4: 1960.944 ns/op
+# Warmup Iteration   5: 1951.598 ns/op
+Iteration   1: 1954.579 ns/op
+Iteration   2: 1892.806 ns/op
+Iteration   3: 1927.741 ns/op
+Iteration   4: 1982.453 ns/op
+Iteration   5: 1920.564 ns/op
+
+# Run progress: 65.33% complete, ETA 00:43:25
+# Fork: 5 of 5
+# Warmup Iteration   1: 3178.845 ns/op
+# Warmup Iteration   2: 2174.467 ns/op
+# Warmup Iteration   3: 2081.058 ns/op
+# Warmup Iteration   4: 2006.826 ns/op
+# Warmup Iteration   5: 1933.899 ns/op
+Iteration   1: 2014.454 ns/op
+Iteration   2: 1981.824 ns/op
+Iteration   3: 1948.963 ns/op
+Iteration   4: 1951.685 ns/op
+Iteration   5: 1923.938 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  1967.097 ±(99.9%) 28.771 ns/op [Average]
+  (min, avg, max) = (1892.806, 1967.097, 2064.267), stdev = 38.408
+  CI (99.9%): [1938.326, 1995.868] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 66.67% complete, ETA 00:41:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 60823.479 ±(99.9%) 1009.447 ns/op
+# Warmup Iteration   2: 56609.100 ±(99.9%) 623.287 ns/op
+# Warmup Iteration   3: 56424.309 ±(99.9%) 637.704 ns/op
+# Warmup Iteration   4: 56519.204 ±(99.9%) 622.220 ns/op
+# Warmup Iteration   5: 56690.950 ±(99.9%) 678.759 ns/op
+Iteration   1: 56665.514 ±(99.9%) 684.456 ns/op
+                 p0.00:   49856.000 ns/op
+                 p0.50:   53824.000 ns/op
+                 p0.90:   58304.000 ns/op
+                 p0.95:   65920.000 ns/op
+                 p0.99:   100532.480 ns/op
+                 p0.999:  222651.648 ns/op
+                 p0.9999: 1630886.093 ns/op
+                 p1.00:   1748992.000 ns/op
+
+Iteration   2: 56556.207 ±(99.9%) 604.416 ns/op
+                 p0.00:   49216.000 ns/op
+                 p0.50:   53824.000 ns/op
+                 p0.90:   58240.000 ns/op
+                 p0.95:   66048.000 ns/op
+                 p0.99:   102785.280 ns/op
+                 p0.999:  204162.304 ns/op
+                 p0.9999: 1610240.205 ns/op
+                 p1.00:   1626112.000 ns/op
+
+Iteration   3: 56371.249 ±(99.9%) 562.821 ns/op
+                 p0.00:   49600.000 ns/op
+                 p0.50:   53824.000 ns/op
+                 p0.90:   58048.000 ns/op
+                 p0.95:   65536.000 ns/op
+                 p0.99:   105264.640 ns/op
+                 p0.999:  191824.384 ns/op
+                 p0.9999: 1519065.907 ns/op
+                 p1.00:   1525760.000 ns/op
+
+Iteration   4: 56447.589 ±(99.9%) 585.590 ns/op
+                 p0.00:   49600.000 ns/op
+                 p0.50:   53824.000 ns/op
+                 p0.90:   58176.000 ns/op
+                 p0.95:   65664.000 ns/op
+                 p0.99:   103262.720 ns/op
+                 p0.999:  202218.496 ns/op
+                 p0.9999: 1571078.554 ns/op
+                 p1.00:   2021376.000 ns/op
+
+Iteration   5: 56552.434 ±(99.9%) 531.666 ns/op
+                 p0.00:   49664.000 ns/op
+                 p0.50:   53824.000 ns/op
+                 p0.90:   58944.000 ns/op
+                 p0.95:   66304.000 ns/op
+                 p0.99:   109221.120 ns/op
+                 p0.999:  202409.216 ns/op
+                 p0.9999: 1575978.803 ns/op
+                 p1.00:   1619968.000 ns/op
+
+
+# Run progress: 68.00% complete, ETA 00:40:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 60439.276 ±(99.9%) 803.826 ns/op
+# Warmup Iteration   2: 56463.976 ±(99.9%) 640.267 ns/op
+# Warmup Iteration   3: 56160.474 ±(99.9%) 637.536 ns/op
+# Warmup Iteration   4: 55902.060 ±(99.9%) 570.874 ns/op
+# Warmup Iteration   5: 56180.942 ±(99.9%) 696.082 ns/op
+Iteration   1: 56530.482 ±(99.9%) 676.197 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   53760.000 ns/op
+                 p0.90:   58432.000 ns/op
+                 p0.95:   66176.000 ns/op
+                 p0.99:   97536.000 ns/op
+                 p0.999:  205839.616 ns/op
+                 p0.9999: 1825846.272 ns/op
+                 p1.00:   2052096.000 ns/op
+
+Iteration   2: 56627.318 ±(99.9%) 1041.429 ns/op
+                 p0.00:   49600.000 ns/op
+                 p0.50:   53568.000 ns/op
+                 p0.90:   57984.000 ns/op
+                 p0.95:   65536.000 ns/op
+                 p0.99:   104980.480 ns/op
+                 p0.999:  233868.288 ns/op
+                 p0.9999: 1613889.536 ns/op
+                 p1.00:   6864896.000 ns/op
+
+Iteration   3: 56581.213 ±(99.9%) 948.553 ns/op
+                 p0.00:   49664.000 ns/op
+                 p0.50:   53568.000 ns/op
+                 p0.90:   57856.000 ns/op
+                 p0.95:   65536.000 ns/op
+                 p0.99:   105364.480 ns/op
+                 p0.999:  232996.864 ns/op
+                 p0.9999: 1621021.491 ns/op
+                 p1.00:   5914624.000 ns/op
+
+Iteration   4: 56627.958 ±(99.9%) 737.799 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   53568.000 ns/op
+                 p0.90:   57792.000 ns/op
+                 p0.95:   65408.000 ns/op
+                 p0.99:   110275.840 ns/op
+                 p0.999:  246669.568 ns/op
+                 p0.9999: 1858102.272 ns/op
+                 p1.00:   1980416.000 ns/op
+
+Iteration   5: 56200.328 ±(99.9%) 584.663 ns/op
+                 p0.00:   49472.000 ns/op
+                 p0.50:   53568.000 ns/op
+                 p0.90:   57664.000 ns/op
+                 p0.95:   64960.000 ns/op
+                 p0.99:   108800.000 ns/op
+                 p0.999:  211847.168 ns/op
+                 p0.9999: 1604635.853 ns/op
+                 p1.00:   1857536.000 ns/op
+
+
+# Run progress: 69.33% complete, ETA 00:38:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 60995.908 ±(99.9%) 857.599 ns/op
+# Warmup Iteration   2: 57004.529 ±(99.9%) 382.167 ns/op
+# Warmup Iteration   3: 56856.809 ±(99.9%) 385.764 ns/op
+# Warmup Iteration   4: 59498.213 ±(99.9%) 856.662 ns/op
+# Warmup Iteration   5: 58500.981 ±(99.9%) 533.895 ns/op
+Iteration   1: 59338.876 ±(99.9%) 906.871 ns/op
+                 p0.00:   50752.000 ns/op
+                 p0.50:   55360.000 ns/op
+                 p0.90:   61184.000 ns/op
+                 p0.95:   71168.000 ns/op
+                 p0.99:   109312.000 ns/op
+                 p0.999:  854259.712 ns/op
+                 p0.9999: 1601534.771 ns/op
+                 p1.00:   1804288.000 ns/op
+
+Iteration   2: 58104.986 ±(99.9%) 424.337 ns/op
+                 p0.00:   51008.000 ns/op
+                 p0.50:   55936.000 ns/op
+                 p0.90:   60032.000 ns/op
+                 p0.95:   68864.000 ns/op
+                 p0.99:   107904.000 ns/op
+                 p0.999:  229978.112 ns/op
+                 p0.9999: 1350753.280 ns/op
+                 p1.00:   1472512.000 ns/op
+
+Iteration   3: 56999.594 ±(99.9%) 306.706 ns/op
+                 p0.00:   50752.000 ns/op
+                 p0.50:   55360.000 ns/op
+                 p0.90:   58688.000 ns/op
+                 p0.95:   65024.000 ns/op
+                 p0.99:   91824.640 ns/op
+                 p0.999:  171486.464 ns/op
+                 p0.9999: 659002.163 ns/op
+                 p1.00:   1576960.000 ns/op
+
+Iteration   4: 57123.117 ±(99.9%) 436.768 ns/op
+                 p0.00:   50624.000 ns/op
+                 p0.50:   55168.000 ns/op
+                 p0.90:   58624.000 ns/op
+                 p0.95:   65385.600 ns/op
+                 p0.99:   93994.240 ns/op
+                 p0.999:  181076.992 ns/op
+                 p0.9999: 1430902.579 ns/op
+                 p1.00:   1574912.000 ns/op
+
+Iteration   5: 56815.883 ±(99.9%) 637.033 ns/op
+                 p0.00:   49792.000 ns/op
+                 p0.50:   53952.000 ns/op
+                 p0.90:   58112.000 ns/op
+                 p0.95:   65920.000 ns/op
+                 p0.99:   107267.840 ns/op
+                 p0.999:  234620.672 ns/op
+                 p0.9999: 1650438.758 ns/op
+                 p1.00:   1800192.000 ns/op
+
+
+# Run progress: 70.67% complete, ETA 00:36:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 60067.794 ±(99.9%) 930.058 ns/op
+# Warmup Iteration   2: 56297.457 ±(99.9%) 559.421 ns/op
+# Warmup Iteration   3: 55973.598 ±(99.9%) 607.028 ns/op
+# Warmup Iteration   4: 56150.096 ±(99.9%) 692.619 ns/op
+# Warmup Iteration   5: 56236.174 ±(99.9%) 629.498 ns/op
+Iteration   1: 56223.517 ±(99.9%) 677.810 ns/op
+                 p0.00:   49600.000 ns/op
+                 p0.50:   53376.000 ns/op
+                 p0.90:   57856.000 ns/op
+                 p0.95:   65280.000 ns/op
+                 p0.99:   97960.960 ns/op
+                 p0.999:  245622.784 ns/op
+                 p0.9999: 1668351.590 ns/op
+                 p1.00:   1839104.000 ns/op
+
+Iteration   2: 56227.376 ±(99.9%) 618.431 ns/op
+                 p0.00:   49536.000 ns/op
+                 p0.50:   53376.000 ns/op
+                 p0.90:   58112.000 ns/op
+                 p0.95:   65664.000 ns/op
+                 p0.99:   103070.720 ns/op
+                 p0.999:  236527.616 ns/op
+                 p0.9999: 1505465.139 ns/op
+                 p1.00:   1677312.000 ns/op
+
+Iteration   3: 56145.120 ±(99.9%) 636.194 ns/op
+                 p0.00:   49472.000 ns/op
+                 p0.50:   53312.000 ns/op
+                 p0.90:   57728.000 ns/op
+                 p0.95:   65491.200 ns/op
+                 p0.99:   109086.720 ns/op
+                 p0.999:  234845.696 ns/op
+                 p0.9999: 1595687.322 ns/op
+                 p1.00:   1824768.000 ns/op
+
+Iteration   4: 56146.968 ±(99.9%) 659.366 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   53312.000 ns/op
+                 p0.90:   57728.000 ns/op
+                 p0.95:   65408.000 ns/op
+                 p0.99:   106923.520 ns/op
+                 p0.999:  225714.688 ns/op
+                 p0.9999: 1683938.099 ns/op
+                 p1.00:   1734656.000 ns/op
+
+Iteration   5: 56198.749 ±(99.9%) 627.070 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   53376.000 ns/op
+                 p0.90:   58176.000 ns/op
+                 p0.95:   65664.000 ns/op
+                 p0.99:   107520.000 ns/op
+                 p0.999:  227931.904 ns/op
+                 p0.9999: 1713482.957 ns/op
+                 p1.00:   1890304.000 ns/op
+
+
+# Run progress: 72.00% complete, ETA 00:35:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 60024.339 ±(99.9%) 907.629 ns/op
+# Warmup Iteration   2: 55676.512 ±(99.9%) 499.174 ns/op
+# Warmup Iteration   3: 55800.141 ±(99.9%) 621.876 ns/op
+# Warmup Iteration   4: 55603.864 ±(99.9%) 592.595 ns/op
+# Warmup Iteration   5: 55765.910 ±(99.9%) 643.020 ns/op
+Iteration   1: 55561.558 ±(99.9%) 532.047 ns/op
+                 p0.00:   49088.000 ns/op
+                 p0.50:   52992.000 ns/op
+                 p0.90:   57344.000 ns/op
+                 p0.95:   64512.000 ns/op
+                 p0.99:   98787.840 ns/op
+                 p0.999:  221782.016 ns/op
+                 p0.9999: 1389010.534 ns/op
+                 p1.00:   1761280.000 ns/op
+
+Iteration   2: 55794.067 ±(99.9%) 572.284 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   53056.000 ns/op
+                 p0.90:   57216.000 ns/op
+                 p0.95:   64384.000 ns/op
+                 p0.99:   106807.040 ns/op
+                 p0.999:  222471.424 ns/op
+                 p0.9999: 1442014.618 ns/op
+                 p1.00:   1581056.000 ns/op
+
+Iteration   3: 55559.296 ±(99.9%) 578.795 ns/op
+                 p0.00:   49408.000 ns/op
+                 p0.50:   52928.000 ns/op
+                 p0.90:   57216.000 ns/op
+                 p0.95:   64000.000 ns/op
+                 p0.99:   104852.480 ns/op
+                 p0.999:  219455.488 ns/op
+                 p0.9999: 1431552.000 ns/op
+                 p1.00:   1507328.000 ns/op
+
+Iteration   4: 55765.433 ±(99.9%) 606.681 ns/op
+                 p0.00:   49344.000 ns/op
+                 p0.50:   52992.000 ns/op
+                 p0.90:   57280.000 ns/op
+                 p0.95:   64464.000 ns/op
+                 p0.99:   104012.800 ns/op
+                 p0.999:  227645.440 ns/op
+                 p0.9999: 1506479.104 ns/op
+                 p1.00:   1683456.000 ns/op
+
+Iteration   5: 56189.681 ±(99.9%) 670.087 ns/op
+                 p0.00:   49536.000 ns/op
+                 p0.50:   53120.000 ns/op
+                 p0.90:   58240.000 ns/op
+                 p0.95:   65408.000 ns/op
+                 p0.99:   107315.200 ns/op
+                 p0.999:  210168.320 ns/op
+                 p0.9999: 1687490.560 ns/op
+                 p1.00:   1794048.000 ns/op
+
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  N = 685919
+  mean =  56525.603 ±(99.9%) 130.411 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 685627 
+    [ 500000.000, 1000000.000) = 2 
+    [1000000.000, 1500000.000) = 183 
+    [1500000.000, 2000000.000) = 103 
+    [2000000.000, 2500000.000) = 2 
+    [2500000.000, 3000000.000) = 0 
+    [3000000.000, 3500000.000) = 0 
+    [3500000.000, 4000000.000) = 0 
+    [4000000.000, 4500000.000) = 0 
+    [4500000.000, 5000000.000) = 0 
+    [5000000.000, 5500000.000) = 0 
+    [5500000.000, 6000000.000) = 1 
+    [6000000.000, 6500000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =  49088.000 ns/op
+     p(50.0000) =  53760.000 ns/op
+     p(90.0000) =  58368.000 ns/op
+     p(95.0000) =  65664.000 ns/op
+     p(99.0000) = 103936.000 ns/op
+     p(99.9000) = 221460.480 ns/op
+     p(99.9900) = 1564672.000 ns/op
+     p(99.9990) = 1901261.619 ns/op
+     p(99.9999) = 6864896.000 ns/op
+    p(100.0000) = 6864896.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 73.33% complete, ETA 00:33:24
+# Fork: 1 of 5
+# Warmup Iteration   1: 258175.878 ±(99.9%) 3035.033 ns/op
+# Warmup Iteration   2: 250189.547 ±(99.9%) 2427.132 ns/op
+# Warmup Iteration   3: 251019.745 ±(99.9%) 2473.561 ns/op
+# Warmup Iteration   4: 250937.696 ±(99.9%) 2536.209 ns/op
+# Warmup Iteration   5: 249743.788 ±(99.9%) 2412.592 ns/op
+Iteration   1: 250474.081 ±(99.9%) 2516.398 ns/op
+                 p0.00:   216832.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   266291.200 ns/op
+                 p0.95:   301568.000 ns/op
+                 p0.99:   453329.920 ns/op
+                 p0.999:  1797828.608 ns/op
+                 p0.9999: 2046385.152 ns/op
+                 p1.00:   2070528.000 ns/op
+
+Iteration   2: 251126.674 ±(99.9%) 2603.133 ns/op
+                 p0.00:   217856.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   267264.000 ns/op
+                 p0.95:   304640.000 ns/op
+                 p0.99:   459182.080 ns/op
+                 p0.999:  1831665.664 ns/op
+                 p0.9999: 2467640.115 ns/op
+                 p1.00:   3485696.000 ns/op
+
+Iteration   3: 249969.283 ±(99.9%) 2498.915 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   232704.000 ns/op
+                 p0.90:   267776.000 ns/op
+                 p0.95:   304128.000 ns/op
+                 p0.99:   449105.920 ns/op
+                 p0.999:  1796317.184 ns/op
+                 p0.9999: 2018928.230 ns/op
+                 p1.00:   2109440.000 ns/op
+
+Iteration   4: 250239.033 ±(99.9%) 2515.037 ns/op
+                 p0.00:   216064.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   266240.000 ns/op
+                 p0.95:   299008.000 ns/op
+                 p0.99:   441538.560 ns/op
+                 p0.999:  1825333.248 ns/op
+                 p0.9999: 2089242.624 ns/op
+                 p1.00:   2105344.000 ns/op
+
+Iteration   5: 250031.857 ±(99.9%) 2622.396 ns/op
+                 p0.00:   216832.000 ns/op
+                 p0.50:   232960.000 ns/op
+                 p0.90:   265216.000 ns/op
+                 p0.95:   299520.000 ns/op
+                 p0.99:   448000.000 ns/op
+                 p0.999:  1929799.680 ns/op
+                 p0.9999: 2437509.120 ns/op
+                 p1.00:   2469888.000 ns/op
+
+
+# Run progress: 74.67% complete, ETA 00:31:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 258805.245 ±(99.9%) 3259.410 ns/op
+# Warmup Iteration   2: 249722.906 ±(99.9%) 2478.062 ns/op
+# Warmup Iteration   3: 249445.035 ±(99.9%) 2470.217 ns/op
+# Warmup Iteration   4: 249342.088 ±(99.9%) 2513.436 ns/op
+# Warmup Iteration   5: 249531.804 ±(99.9%) 2449.803 ns/op
+Iteration   1: 249849.746 ±(99.9%) 2453.967 ns/op
+                 p0.00:   217600.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   266752.000 ns/op
+                 p0.95:   300032.000 ns/op
+                 p0.99:   443965.440 ns/op
+                 p0.999:  1819541.504 ns/op
+                 p0.9999: 2087043.072 ns/op
+                 p1.00:   2240512.000 ns/op
+
+Iteration   2: 249084.916 ±(99.9%) 2432.224 ns/op
+                 p0.00:   216832.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   266240.000 ns/op
+                 p0.95:   296960.000 ns/op
+                 p0.99:   431979.520 ns/op
+                 p0.999:  1845248.000 ns/op
+                 p0.9999: 2100060.365 ns/op
+                 p1.00:   2150400.000 ns/op
+
+Iteration   3: 250289.385 ±(99.9%) 2599.214 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   265728.000 ns/op
+                 p0.95:   297984.000 ns/op
+                 p0.99:   452096.000 ns/op
+                 p0.999:  1867984.896 ns/op
+                 p0.9999: 2395457.126 ns/op
+                 p1.00:   2531328.000 ns/op
+
+Iteration   4: 250107.085 ±(99.9%) 2628.113 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   232960.000 ns/op
+                 p0.90:   265728.000 ns/op
+                 p0.95:   299008.000 ns/op
+                 p0.99:   457891.840 ns/op
+                 p0.999:  1882451.968 ns/op
+                 p0.9999: 2171553.382 ns/op
+                 p1.00:   2392064.000 ns/op
+
+Iteration   5: 251083.209 ±(99.9%) 2521.763 ns/op
+                 p0.00:   216832.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   269824.000 ns/op
+                 p0.95:   307712.000 ns/op
+                 p0.99:   450580.480 ns/op
+                 p0.999:  1822740.480 ns/op
+                 p0.9999: 2183050.445 ns/op
+                 p1.00:   2842624.000 ns/op
+
+
+# Run progress: 76.00% complete, ETA 00:30:03
+# Fork: 3 of 5
+# Warmup Iteration   1: 260712.460 ±(99.9%) 3372.869 ns/op
+# Warmup Iteration   2: 252074.946 ±(99.9%) 2515.231 ns/op
+# Warmup Iteration   3: 250352.574 ±(99.9%) 2611.346 ns/op
+# Warmup Iteration   4: 249697.490 ±(99.9%) 2423.476 ns/op
+# Warmup Iteration   5: 249776.897 ±(99.9%) 2539.428 ns/op
+Iteration   1: 250431.143 ±(99.9%) 2467.223 ns/op
+                 p0.00:   216832.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   269824.000 ns/op
+                 p0.95:   304640.000 ns/op
+                 p0.99:   441815.040 ns/op
+                 p0.999:  1847066.624 ns/op
+                 p0.9999: 2093813.760 ns/op
+                 p1.00:   2134016.000 ns/op
+
+Iteration   2: 250412.340 ±(99.9%) 2506.861 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   233984.000 ns/op
+                 p0.90:   267776.000 ns/op
+                 p0.95:   300288.000 ns/op
+                 p0.99:   426444.800 ns/op
+                 p0.999:  1837056.000 ns/op
+                 p0.9999: 2172211.200 ns/op
+                 p1.00:   2252800.000 ns/op
+
+Iteration   3: 249839.054 ±(99.9%) 2503.869 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   265216.000 ns/op
+                 p0.95:   294912.000 ns/op
+                 p0.99:   437248.000 ns/op
+                 p0.999:  1811271.680 ns/op
+                 p0.9999: 2122748.723 ns/op
+                 p1.00:   2142208.000 ns/op
+
+Iteration   4: 249113.929 ±(99.9%) 2421.588 ns/op
+                 p0.00:   217856.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   265676.800 ns/op
+                 p0.95:   296960.000 ns/op
+                 p0.99:   407552.000 ns/op
+                 p0.999:  1821765.632 ns/op
+                 p0.9999: 2113738.547 ns/op
+                 p1.00:   2277376.000 ns/op
+
+Iteration   5: 249580.436 ±(99.9%) 2510.632 ns/op
+                 p0.00:   217600.000 ns/op
+                 p0.50:   233472.000 ns/op
+                 p0.90:   264192.000 ns/op
+                 p0.95:   295424.000 ns/op
+                 p0.99:   427520.000 ns/op
+                 p0.999:  1810432.000 ns/op
+                 p0.9999: 2013365.248 ns/op
+                 p1.00:   2037760.000 ns/op
+
+
+# Run progress: 77.33% complete, ETA 00:28:23
+# Fork: 4 of 5
+# Warmup Iteration   1: 256427.343 ±(99.9%) 2957.117 ns/op
+# Warmup Iteration   2: 250136.128 ±(99.9%) 2523.697 ns/op
+# Warmup Iteration   3: 250269.532 ±(99.9%) 2587.533 ns/op
+# Warmup Iteration   4: 249814.953 ±(99.9%) 2487.566 ns/op
+# Warmup Iteration   5: 249025.014 ±(99.9%) 2498.010 ns/op
+Iteration   1: 248963.292 ±(99.9%) 2487.309 ns/op
+                 p0.00:   216576.000 ns/op
+                 p0.50:   232704.000 ns/op
+                 p0.90:   264704.000 ns/op
+                 p0.95:   294912.000 ns/op
+                 p0.99:   435691.520 ns/op
+                 p0.999:  1794039.808 ns/op
+                 p0.9999: 2062732.902 ns/op
+                 p1.00:   2113536.000 ns/op
+
+Iteration   2: 251728.993 ±(99.9%) 2615.484 ns/op
+                 p0.00:   217856.000 ns/op
+                 p0.50:   233216.000 ns/op
+                 p0.90:   270848.000 ns/op
+                 p0.95:   309760.000 ns/op
+                 p0.99:   458240.000 ns/op
+                 p0.999:  1796866.048 ns/op
+                 p0.9999: 2485328.282 ns/op
+                 p1.00:   3739648.000 ns/op
+
+Iteration   3: 249780.587 ±(99.9%) 2506.489 ns/op
+                 p0.00:   217344.000 ns/op
+                 p0.50:   232960.000 ns/op
+                 p0.90:   266752.000 ns/op
+                 p0.95:   300032.000 ns/op
+                 p0.99:   434176.000 ns/op
+                 p0.999:  1808384.000 ns/op
+                 p0.9999: 2153388.442 ns/op
+                 p1.00:   2211840.000 ns/op
+
+Iteration   4: 249903.762 ±(99.9%) 2464.364 ns/op
+                 p0.00:   218880.000 ns/op
+                 p0.50:   233472.000 ns/op
+                 p0.90:   264704.000 ns/op
+                 p0.95:   297984.000 ns/op
+                 p0.99:   452925.440 ns/op
+                 p0.999:  1802571.776 ns/op
+                 p0.9999: 2009965.978 ns/op
+                 p1.00:   2215936.000 ns/op
+
+Iteration   5: 251420.333 ±(99.9%) 2526.348 ns/op
+                 p0.00:   219392.000 ns/op
+                 p0.50:   234496.000 ns/op
+                 p0.90:   266240.000 ns/op
+                 p0.95:   302080.000 ns/op
+                 p0.99:   453632.000 ns/op
+                 p0.999:  1837389.824 ns/op
+                 p0.9999: 2175874.662 ns/op
+                 p1.00:   2297856.000 ns/op
+
+
+# Run progress: 78.67% complete, ETA 00:26:43
+# Fork: 5 of 5
+# Warmup Iteration   1: 258774.581 ±(99.9%) 3129.261 ns/op
+# Warmup Iteration   2: 250490.427 ±(99.9%) 2500.630 ns/op
+# Warmup Iteration   3: 250880.458 ±(99.9%) 2526.663 ns/op
+# Warmup Iteration   4: 251097.156 ±(99.9%) 2479.873 ns/op
+# Warmup Iteration   5: 250780.741 ±(99.9%) 2458.801 ns/op
+Iteration   1: 250002.657 ±(99.9%) 2423.199 ns/op
+                 p0.00:   217856.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   265216.000 ns/op
+                 p0.95:   296448.000 ns/op
+                 p0.99:   451072.000 ns/op
+                 p0.999:  1772281.856 ns/op
+                 p0.9999: 1994180.403 ns/op
+                 p1.00:   2015232.000 ns/op
+
+Iteration   2: 250318.027 ±(99.9%) 2550.946 ns/op
+                 p0.00:   218368.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   265216.000 ns/op
+                 p0.95:   298368.000 ns/op
+                 p0.99:   436147.200 ns/op
+                 p0.999:  1844367.360 ns/op
+                 p0.9999: 2122895.360 ns/op
+                 p1.00:   2220032.000 ns/op
+
+Iteration   3: 250273.152 ±(99.9%) 2493.095 ns/op
+                 p0.00:   218624.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   265728.000 ns/op
+                 p0.95:   296960.000 ns/op
+                 p0.99:   440396.800 ns/op
+                 p0.999:  1811138.560 ns/op
+                 p0.9999: 2097505.280 ns/op
+                 p1.00:   2121728.000 ns/op
+
+Iteration   4: 250342.274 ±(99.9%) 2487.391 ns/op
+                 p0.00:   218880.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   264704.000 ns/op
+                 p0.95:   296448.000 ns/op
+                 p0.99:   441943.040 ns/op
+                 p0.999:  1779951.616 ns/op
+                 p0.9999: 1939381.862 ns/op
+                 p1.00:   1961984.000 ns/op
+
+Iteration   5: 251238.901 ±(99.9%) 2448.705 ns/op
+                 p0.00:   218112.000 ns/op
+                 p0.50:   233728.000 ns/op
+                 p0.90:   269312.000 ns/op
+                 p0.95:   306688.000 ns/op
+                 p0.99:   462341.120 ns/op
+                 p0.999:  1807992.832 ns/op
+                 p0.9999: 1966619.238 ns/op
+                 p1.00:   2019328.000 ns/op
+
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  N = 447108
+  mean = 250222.542 ±(99.9%) 502.488 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  250000.000) = 369408 
+    [ 250000.000,  500000.000) = 74726 
+    [ 500000.000,  750000.000) = 1065 
+    [ 750000.000, 1000000.000) = 43 
+    [1000000.000, 1250000.000) = 2 
+    [1250000.000, 1500000.000) = 69 
+    [1500000.000, 1750000.000) = 1058 
+    [1750000.000, 2000000.000) = 647 
+    [2000000.000, 2250000.000) = 77 
+    [2250000.000, 2500000.000) = 9 
+    [2500000.000, 2750000.000) = 1 
+    [2750000.000, 3000000.000) = 1 
+    [3000000.000, 3250000.000) = 0 
+    [3250000.000, 3500000.000) = 1 
+    [3500000.000, 3750000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) = 216064.000 ns/op
+     p(50.0000) = 233472.000 ns/op
+     p(90.0000) = 266240.000 ns/op
+     p(95.0000) = 300032.000 ns/op
+     p(99.0000) = 442880.000 ns/op
+     p(99.9000) = 1818624.000 ns/op
+     p(99.9900) = 2085456.077 ns/op
+     p(99.9990) = 2502384.230 ns/op
+     p(99.9999) = 3739648.000 ns/op
+    p(100.0000) = 3739648.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 80.00% complete, ETA 00:25:03
+# Fork: 1 of 5
+# Warmup Iteration   1: 453875.051 ±(99.9%) 6334.423 ns/op
+# Warmup Iteration   2: 427809.825 ±(99.9%) 4521.766 ns/op
+# Warmup Iteration   3: 424048.324 ±(99.9%) 4217.771 ns/op
+# Warmup Iteration   4: 423654.753 ±(99.9%) 4379.065 ns/op
+# Warmup Iteration   5: 422927.769 ±(99.9%) 4309.355 ns/op
+Iteration   1: 427603.245 ±(99.9%) 4503.194 ns/op
+                 p0.00:   352768.000 ns/op
+                 p0.50:   392192.000 ns/op
+                 p0.90:   483840.000 ns/op
+                 p0.95:   553984.000 ns/op
+                 p0.99:   906158.080 ns/op
+                 p0.999:  2156437.504 ns/op
+                 p0.9999: 2451610.010 ns/op
+                 p1.00:   2486272.000 ns/op
+
+Iteration   2: 424397.688 ±(99.9%) 4396.352 ns/op
+                 p0.00:   354304.000 ns/op
+                 p0.50:   392192.000 ns/op
+                 p0.90:   474112.000 ns/op
+                 p0.95:   535552.000 ns/op
+                 p0.99:   832368.640 ns/op
+                 p0.999:  2159325.184 ns/op
+                 p0.9999: 2398910.874 ns/op
+                 p1.00:   2416640.000 ns/op
+
+Iteration   3: 424017.489 ±(99.9%) 4397.742 ns/op
+                 p0.00:   352768.000 ns/op
+                 p0.50:   391680.000 ns/op
+                 p0.90:   471552.000 ns/op
+                 p0.95:   531456.000 ns/op
+                 p0.99:   884142.080 ns/op
+                 p0.999:  2116575.232 ns/op
+                 p0.9999: 2349650.739 ns/op
+                 p1.00:   2367488.000 ns/op
+
+Iteration   4: 424115.138 ±(99.9%) 4358.284 ns/op
+                 p0.00:   356352.000 ns/op
+                 p0.50:   392192.000 ns/op
+                 p0.90:   476160.000 ns/op
+                 p0.95:   534528.000 ns/op
+                 p0.99:   873472.000 ns/op
+                 p0.999:  2121728.000 ns/op
+                 p0.9999: 2441052.160 ns/op
+                 p1.00:   2498560.000 ns/op
+
+Iteration   5: 424047.766 ±(99.9%) 4446.230 ns/op
+                 p0.00:   353280.000 ns/op
+                 p0.50:   391168.000 ns/op
+                 p0.90:   475648.000 ns/op
+                 p0.95:   539648.000 ns/op
+                 p0.99:   835522.560 ns/op
+                 p0.999:  2134810.624 ns/op
+                 p0.9999: 3416571.904 ns/op
+                 p1.00:   3977216.000 ns/op
+
+
+# Run progress: 81.33% complete, ETA 00:23:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 456468.793 ±(99.9%) 6853.314 ns/op
+# Warmup Iteration   2: 434257.051 ±(99.9%) 4316.980 ns/op
+# Warmup Iteration   3: 437290.092 ±(99.9%) 4490.558 ns/op
+# Warmup Iteration   4: 433312.017 ±(99.9%) 4315.174 ns/op
+# Warmup Iteration   5: 432418.441 ±(99.9%) 4357.344 ns/op
+Iteration   1: 433020.502 ±(99.9%) 4408.158 ns/op
+                 p0.00:   363520.000 ns/op
+                 p0.50:   401920.000 ns/op
+                 p0.90:   481280.000 ns/op
+                 p0.95:   542720.000 ns/op
+                 p0.99:   837376.000 ns/op
+                 p0.999:  2165166.080 ns/op
+                 p0.9999: 2445565.952 ns/op
+                 p1.00:   2506752.000 ns/op
+
+Iteration   2: 436941.093 ±(99.9%) 4780.620 ns/op
+                 p0.00:   358912.000 ns/op
+                 p0.50:   402432.000 ns/op
+                 p0.90:   489984.000 ns/op
+                 p0.95:   566272.000 ns/op
+                 p0.99:   952750.080 ns/op
+                 p0.999:  2130026.496 ns/op
+                 p0.9999: 5848521.114 ns/op
+                 p1.00:   7208960.000 ns/op
+
+Iteration   3: 432952.366 ±(99.9%) 4559.657 ns/op
+                 p0.00:   361984.000 ns/op
+                 p0.50:   402432.000 ns/op
+                 p0.90:   481280.000 ns/op
+                 p0.95:   542720.000 ns/op
+                 p0.99:   839680.000 ns/op
+                 p0.999:  2087106.560 ns/op
+                 p0.9999: 5644752.896 ns/op
+                 p1.00:   7258112.000 ns/op
+
+Iteration   4: 432861.957 ±(99.9%) 4243.321 ns/op
+                 p0.00:   359424.000 ns/op
+                 p0.50:   402432.000 ns/op
+                 p0.90:   479744.000 ns/op
+                 p0.95:   544768.000 ns/op
+                 p0.99:   825876.480 ns/op
+                 p0.999:  2131394.560 ns/op
+                 p0.9999: 2574214.758 ns/op
+                 p1.00:   2662400.000 ns/op
+
+Iteration   5: 433348.590 ±(99.9%) 4539.582 ns/op
+                 p0.00:   359424.000 ns/op
+                 p0.50:   402944.000 ns/op
+                 p0.90:   480256.000 ns/op
+                 p0.95:   543744.000 ns/op
+                 p0.99:   824371.200 ns/op
+                 p0.999:  2094946.304 ns/op
+                 p0.9999: 5840410.624 ns/op
+                 p1.00:   7512064.000 ns/op
+
+
+# Run progress: 82.67% complete, ETA 00:21:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 441884.616 ±(99.9%) 5631.377 ns/op
+# Warmup Iteration   2: 416793.934 ±(99.9%) 4319.910 ns/op
+# Warmup Iteration   3: 418555.669 ±(99.9%) 4290.404 ns/op
+# Warmup Iteration   4: 417487.754 ±(99.9%) 4353.514 ns/op
+# Warmup Iteration   5: 421510.800 ±(99.9%) 4369.307 ns/op
+Iteration   1: 416988.176 ±(99.9%) 4292.943 ns/op
+                 p0.00:   348160.000 ns/op
+                 p0.50:   384512.000 ns/op
+                 p0.90:   466432.000 ns/op
+                 p0.95:   530073.600 ns/op
+                 p0.99:   1049057.280 ns/op
+                 p0.999:  2062336.000 ns/op
+                 p0.9999: 2247539.917 ns/op
+                 p1.00:   2256896.000 ns/op
+
+Iteration   2: 416788.677 ±(99.9%) 4272.004 ns/op
+                 p0.00:   349696.000 ns/op
+                 p0.50:   385024.000 ns/op
+                 p0.90:   467456.000 ns/op
+                 p0.95:   527360.000 ns/op
+                 p0.99:   888483.840 ns/op
+                 p0.999:  2063751.168 ns/op
+                 p0.9999: 2260992.000 ns/op
+                 p1.00:   2260992.000 ns/op
+
+Iteration   3: 417354.425 ±(99.9%) 4301.406 ns/op
+                 p0.00:   345600.000 ns/op
+                 p0.50:   384512.000 ns/op
+                 p0.90:   467558.400 ns/op
+                 p0.95:   537190.400 ns/op
+                 p0.99:   972922.880 ns/op
+                 p0.999:  2025390.080 ns/op
+                 p0.9999: 2413966.131 ns/op
+                 p1.00:   2555904.000 ns/op
+
+Iteration   4: 416850.515 ±(99.9%) 4573.715 ns/op
+                 p0.00:   348160.000 ns/op
+                 p0.50:   384000.000 ns/op
+                 p0.90:   465049.600 ns/op
+                 p0.95:   531456.000 ns/op
+                 p0.99:   961771.520 ns/op
+                 p0.999:  2074157.056 ns/op
+                 p0.9999: 5335041.638 ns/op
+                 p1.00:   7249920.000 ns/op
+
+Iteration   5: 422181.643 ±(99.9%) 4405.914 ns/op
+                 p0.00:   352768.000 ns/op
+                 p0.50:   385536.000 ns/op
+                 p0.90:   482816.000 ns/op
+                 p0.95:   558080.000 ns/op
+                 p0.99:   1165066.240 ns/op
+                 p0.999:  2025472.000 ns/op
+                 p0.9999: 2997089.075 ns/op
+                 p1.00:   3272704.000 ns/op
+
+
+# Run progress: 84.00% complete, ETA 00:20:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 455991.538 ±(99.9%) 5435.076 ns/op
+# Warmup Iteration   2: 436248.756 ±(99.9%) 4381.590 ns/op
+# Warmup Iteration   3: 437502.220 ±(99.9%) 4491.878 ns/op
+# Warmup Iteration   4: 435343.020 ±(99.9%) 4375.088 ns/op
+# Warmup Iteration   5: 435788.883 ±(99.9%) 4471.195 ns/op
+Iteration   1: 438285.565 ±(99.9%) 4479.102 ns/op
+                 p0.00:   366080.000 ns/op
+                 p0.50:   403456.000 ns/op
+                 p0.90:   491520.000 ns/op
+                 p0.95:   563200.000 ns/op
+                 p0.99:   1597440.000 ns/op
+                 p0.999:  2047490.048 ns/op
+                 p0.9999: 2597000.397 ns/op
+                 p1.00:   2707456.000 ns/op
+
+Iteration   2: 436388.518 ±(99.9%) 4533.936 ns/op
+                 p0.00:   363008.000 ns/op
+                 p0.50:   402944.000 ns/op
+                 p0.90:   485888.000 ns/op
+                 p0.95:   557260.800 ns/op
+                 p0.99:   1083555.840 ns/op
+                 p0.999:  2153283.584 ns/op
+                 p0.9999: 2982307.430 ns/op
+                 p1.00:   3260416.000 ns/op
+
+Iteration   3: 435625.213 ±(99.9%) 4412.077 ns/op
+                 p0.00:   363520.000 ns/op
+                 p0.50:   403456.000 ns/op
+                 p0.90:   483840.000 ns/op
+                 p0.95:   548864.000 ns/op
+                 p0.99:   856064.000 ns/op
+                 p0.999:  2143805.440 ns/op
+                 p0.9999: 2390772.941 ns/op
+                 p1.00:   2412544.000 ns/op
+
+Iteration   4: 434783.108 ±(99.9%) 4323.814 ns/op
+                 p0.00:   363008.000 ns/op
+                 p0.50:   403456.000 ns/op
+                 p0.90:   484352.000 ns/op
+                 p0.95:   546816.000 ns/op
+                 p0.99:   848476.160 ns/op
+                 p0.999:  2090168.320 ns/op
+                 p0.9999: 2321044.685 ns/op
+                 p1.00:   2330624.000 ns/op
+
+Iteration   5: 435928.652 ±(99.9%) 4525.261 ns/op
+                 p0.00:   358912.000 ns/op
+                 p0.50:   402944.000 ns/op
+                 p0.90:   485888.000 ns/op
+                 p0.95:   552960.000 ns/op
+                 p0.99:   951132.160 ns/op
+                 p0.999:  2169552.896 ns/op
+                 p0.9999: 2442582.426 ns/op
+                 p1.00:   2445312.000 ns/op
+
+
+# Run progress: 85.33% complete, ETA 00:18:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 459526.239 ±(99.9%) 7389.497 ns/op
+# Warmup Iteration   2: 433492.758 ±(99.9%) 4527.077 ns/op
+# Warmup Iteration   3: 433910.101 ±(99.9%) 4544.751 ns/op
+# Warmup Iteration   4: 431958.199 ±(99.9%) 4414.567 ns/op
+# Warmup Iteration   5: 431033.585 ±(99.9%) 4337.932 ns/op
+Iteration   1: 430590.630 ±(99.9%) 4469.159 ns/op
+                 p0.00:   359936.000 ns/op
+                 p0.50:   399360.000 ns/op
+                 p0.90:   478617.600 ns/op
+                 p0.95:   544768.000 ns/op
+                 p0.99:   822722.560 ns/op
+                 p0.999:  2240905.216 ns/op
+                 p0.9999: 2563075.277 ns/op
+                 p1.00:   2592768.000 ns/op
+
+Iteration   2: 433779.748 ±(99.9%) 4591.734 ns/op
+                 p0.00:   363008.000 ns/op
+                 p0.50:   400384.000 ns/op
+                 p0.90:   481792.000 ns/op
+                 p0.95:   551936.000 ns/op
+                 p0.99:   939991.040 ns/op
+                 p0.999:  2237497.344 ns/op
+                 p0.9999: 2768704.307 ns/op
+                 p1.00:   2842624.000 ns/op
+
+Iteration   3: 431791.973 ±(99.9%) 4472.731 ns/op
+                 p0.00:   362496.000 ns/op
+                 p0.50:   400384.000 ns/op
+                 p0.90:   481280.000 ns/op
+                 p0.95:   543744.000 ns/op
+                 p0.99:   809123.840 ns/op
+                 p0.999:  2247008.256 ns/op
+                 p0.9999: 2898095.309 ns/op
+                 p1.00:   3035136.000 ns/op
+
+Iteration   4: 431678.408 ±(99.9%) 4459.965 ns/op
+                 p0.00:   359424.000 ns/op
+                 p0.50:   399872.000 ns/op
+                 p0.90:   481792.000 ns/op
+                 p0.95:   543744.000 ns/op
+                 p0.99:   865423.360 ns/op
+                 p0.999:  2201882.624 ns/op
+                 p0.9999: 2431498.650 ns/op
+                 p1.00:   2437120.000 ns/op
+
+Iteration   5: 431883.366 ±(99.9%) 4379.600 ns/op
+                 p0.00:   361472.000 ns/op
+                 p0.50:   400384.000 ns/op
+                 p0.90:   482816.000 ns/op
+                 p0.95:   546816.000 ns/op
+                 p0.99:   814981.120 ns/op
+                 p0.999:  2218385.408 ns/op
+                 p0.9999: 2330202.112 ns/op
+                 p1.00:   2351104.000 ns/op
+
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  N = 337173
+  mean = 428878.523 ±(99.9%) 889.748 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  500000.000) = 310684 
+    [ 500000.000, 1000000.000) = 23318 
+    [1000000.000, 1500000.000) = 98 
+    [1500000.000, 2000000.000) = 2259 
+    [2000000.000, 2500000.000) = 792 
+    [2500000.000, 3000000.000) = 13 
+    [3000000.000, 3500000.000) = 4 
+    [3500000.000, 4000000.000) = 1 
+    [4000000.000, 4500000.000) = 0 
+    [4500000.000, 5000000.000) = 0 
+    [5000000.000, 5500000.000) = 0 
+    [5500000.000, 6000000.000) = 0 
+    [6000000.000, 6500000.000) = 0 
+    [6500000.000, 7000000.000) = 0 
+    [7000000.000, 7500000.000) = 3 
+
+  Percentiles, ns/op:
+      p(0.0000) = 345600.000 ns/op
+     p(50.0000) = 397824.000 ns/op
+     p(90.0000) = 479232.000 ns/op
+     p(95.0000) = 544768.000 ns/op
+     p(99.0000) = 880906.240 ns/op
+     p(99.9000) = 2133303.296 ns/op
+     p(99.9900) = 2421893.530 ns/op
+     p(99.9990) = 7234693.530 ns/op
+     p(99.9999) = 7512064.000 ns/op
+    p(100.0000) = 7512064.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 86.67% complete, ETA 00:16:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 3175.612 ±(99.9%) 166.731 ns/op
+# Warmup Iteration   2: 2049.684 ±(99.9%) 51.172 ns/op
+# Warmup Iteration   3: 1885.755 ±(99.9%) 36.240 ns/op
+# Warmup Iteration   4: 1856.040 ±(99.9%) 34.030 ns/op
+# Warmup Iteration   5: 1988.132 ±(99.9%) 36.656 ns/op
+Iteration   1: 1849.250 ±(99.9%) 32.476 ns/op
+                 p0.00:   647.000 ns/op
+                 p0.50:   1356.000 ns/op
+                 p0.90:   2896.000 ns/op
+                 p0.95:   3884.000 ns/op
+                 p0.99:   7079.680 ns/op
+                 p0.999:  20725.248 ns/op
+                 p0.9999: 78290.176 ns/op
+                 p1.00:   86016.000 ns/op
+
+Iteration   2: 1854.677 ±(99.9%) 39.580 ns/op
+                 p0.00:   661.000 ns/op
+                 p0.50:   1350.000 ns/op
+                 p0.90:   2908.000 ns/op
+                 p0.95:   3817.200 ns/op
+                 p0.99:   7064.000 ns/op
+                 p0.999:  24535.168 ns/op
+                 p0.9999: 111072.704 ns/op
+                 p1.00:   128896.000 ns/op
+
+Iteration   3: 1823.196 ±(99.9%) 35.641 ns/op
+                 p0.00:   654.000 ns/op
+                 p0.50:   1342.000 ns/op
+                 p0.90:   2864.000 ns/op
+                 p0.95:   3785.200 ns/op
+                 p0.99:   7083.680 ns/op
+                 p0.999:  21132.288 ns/op
+                 p0.9999: 65482.022 ns/op
+                 p1.00:   140288.000 ns/op
+
+Iteration   4: 1844.462 ±(99.9%) 40.750 ns/op
+                 p0.00:   663.000 ns/op
+                 p0.50:   1356.000 ns/op
+                 p0.90:   2880.000 ns/op
+                 p0.95:   3798.000 ns/op
+                 p0.99:   6736.800 ns/op
+                 p0.999:  20924.480 ns/op
+                 p0.9999: 76348.160 ns/op
+                 p1.00:   251904.000 ns/op
+
+Iteration   5: 1876.132 ±(99.9%) 46.433 ns/op
+                 p0.00:   684.000 ns/op
+                 p0.50:   1354.000 ns/op
+                 p0.90:   2908.000 ns/op
+                 p0.95:   3888.800 ns/op
+                 p0.99:   7549.120 ns/op
+                 p0.999:  24176.384 ns/op
+                 p0.9999: 135190.630 ns/op
+                 p1.00:   186624.000 ns/op
+
+
+# Run progress: 88.00% complete, ETA 00:15:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 3550.322 ±(99.9%) 212.367 ns/op
+# Warmup Iteration   2: 2053.166 ±(99.9%) 53.986 ns/op
+# Warmup Iteration   3: 1914.551 ±(99.9%) 40.930 ns/op
+# Warmup Iteration   4: 1799.886 ±(99.9%) 37.056 ns/op
+# Warmup Iteration   5: 1811.744 ±(99.9%) 36.219 ns/op
+Iteration   1: 1846.894 ±(99.9%) 33.254 ns/op
+                 p0.00:   706.000 ns/op
+                 p0.50:   1300.000 ns/op
+                 p0.90:   3036.000 ns/op
+                 p0.95:   4344.000 ns/op
+                 p0.99:   7241.680 ns/op
+                 p0.999:  21517.440 ns/op
+                 p0.9999: 66327.904 ns/op
+                 p1.00:   81920.000 ns/op
+
+Iteration   2: 1840.963 ±(99.9%) 40.556 ns/op
+                 p0.00:   709.000 ns/op
+                 p0.50:   1296.000 ns/op
+                 p0.90:   3012.000 ns/op
+                 p0.95:   4320.000 ns/op
+                 p0.99:   7416.000 ns/op
+                 p0.999:  22568.960 ns/op
+                 p0.9999: 65422.336 ns/op
+                 p1.00:   243712.000 ns/op
+
+Iteration   3: 1847.018 ±(99.9%) 42.689 ns/op
+                 p0.00:   720.000 ns/op
+                 p0.50:   1292.000 ns/op
+                 p0.90:   3016.000 ns/op
+                 p0.95:   4282.000 ns/op
+                 p0.99:   7718.800 ns/op
+                 p0.999:  26848.000 ns/op
+                 p0.9999: 116549.120 ns/op
+                 p1.00:   131840.000 ns/op
+
+Iteration   4: 1817.258 ±(99.9%) 46.742 ns/op
+                 p0.00:   741.000 ns/op
+                 p0.50:   1272.000 ns/op
+                 p0.90:   2960.000 ns/op
+                 p0.95:   3986.000 ns/op
+                 p0.99:   7207.600 ns/op
+                 p0.999:  27171.680 ns/op
+                 p0.9999: 95880.128 ns/op
+                 p1.00:   243200.000 ns/op
+
+Iteration   5: 1807.205 ±(99.9%) 42.016 ns/op
+                 p0.00:   739.000 ns/op
+                 p0.50:   1270.000 ns/op
+                 p0.90:   2968.000 ns/op
+                 p0.95:   4152.000 ns/op
+                 p0.99:   7140.880 ns/op
+                 p0.999:  22379.136 ns/op
+                 p0.9999: 98079.770 ns/op
+                 p1.00:   210176.000 ns/op
+
+
+# Run progress: 89.33% complete, ETA 00:13:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 3054.795 ±(99.9%) 152.657 ns/op
+# Warmup Iteration   2: 1921.063 ±(99.9%) 51.279 ns/op
+# Warmup Iteration   3: 1830.144 ±(99.9%) 142.063 ns/op
+# Warmup Iteration   4: 1699.237 ±(99.9%) 34.495 ns/op
+# Warmup Iteration   5: 1706.196 ±(99.9%) 38.680 ns/op
+Iteration   1: 1702.156 ±(99.9%) 33.449 ns/op
+                 p0.00:   629.000 ns/op
+                 p0.50:   1216.000 ns/op
+                 p0.90:   2772.000 ns/op
+                 p0.95:   3708.000 ns/op
+                 p0.99:   6816.000 ns/op
+                 p0.999:  22786.048 ns/op
+                 p0.9999: 63861.568 ns/op
+                 p1.00:   128128.000 ns/op
+
+Iteration   2: 1729.529 ±(99.9%) 36.950 ns/op
+                 p0.00:   612.000 ns/op
+                 p0.50:   1221.000 ns/op
+                 p0.90:   2784.000 ns/op
+                 p0.95:   3909.400 ns/op
+                 p0.99:   7216.000 ns/op
+                 p0.999:  23203.872 ns/op
+                 p0.9999: 86618.496 ns/op
+                 p1.00:   105344.000 ns/op
+
+Iteration   3: 1709.371 ±(99.9%) 31.966 ns/op
+                 p0.00:   606.000 ns/op
+                 p0.50:   1212.000 ns/op
+                 p0.90:   2788.000 ns/op
+                 p0.95:   4087.200 ns/op
+                 p0.99:   7168.000 ns/op
+                 p0.999:  20595.456 ns/op
+                 p0.9999: 64927.744 ns/op
+                 p1.00:   103296.000 ns/op
+
+Iteration   4: 1702.270 ±(99.9%) 35.627 ns/op
+                 p0.00:   617.000 ns/op
+                 p0.50:   1212.000 ns/op
+                 p0.90:   2744.000 ns/op
+                 p0.95:   3623.600 ns/op
+                 p0.99:   6708.560 ns/op
+                 p0.999:  20227.040 ns/op
+                 p0.9999: 66494.829 ns/op
+                 p1.00:   165632.000 ns/op
+
+Iteration   5: 1696.449 ±(99.9%) 33.953 ns/op
+                 p0.00:   600.000 ns/op
+                 p0.50:   1208.000 ns/op
+                 p0.90:   2756.000 ns/op
+                 p0.95:   3716.000 ns/op
+                 p0.99:   6934.080 ns/op
+                 p0.999:  21521.216 ns/op
+                 p0.9999: 77370.522 ns/op
+                 p1.00:   108160.000 ns/op
+
+
+# Run progress: 90.67% complete, ETA 00:11:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 3221.883 ±(99.9%) 166.015 ns/op
+# Warmup Iteration   2: 2063.953 ±(99.9%) 46.081 ns/op
+# Warmup Iteration   3: 1840.644 ±(99.9%) 35.594 ns/op
+# Warmup Iteration   4: 1927.943 ±(99.9%) 137.236 ns/op
+# Warmup Iteration   5: 2069.550 ±(99.9%) 42.651 ns/op
+Iteration   1: 1884.645 ±(99.9%) 41.253 ns/op
+                 p0.00:   679.000 ns/op
+                 p0.50:   1342.000 ns/op
+                 p0.90:   2976.000 ns/op
+                 p0.95:   3896.000 ns/op
+                 p0.99:   7336.640 ns/op
+                 p0.999:  28628.352 ns/op
+                 p0.9999: 84218.675 ns/op
+                 p1.00:   171008.000 ns/op
+
+Iteration   2: 1867.172 ±(99.9%) 39.311 ns/op
+                 p0.00:   661.000 ns/op
+                 p0.50:   1328.000 ns/op
+                 p0.90:   2972.000 ns/op
+                 p0.95:   3888.000 ns/op
+                 p0.99:   7489.600 ns/op
+                 p0.999:  27889.280 ns/op
+                 p0.9999: 91185.152 ns/op
+                 p1.00:   100992.000 ns/op
+
+Iteration   3: 1866.328 ±(99.9%) 34.504 ns/op
+                 p0.00:   669.000 ns/op
+                 p0.50:   1334.000 ns/op
+                 p0.90:   2984.000 ns/op
+                 p0.95:   4050.800 ns/op
+                 p0.99:   7313.760 ns/op
+                 p0.999:  22254.784 ns/op
+                 p0.9999: 68782.208 ns/op
+                 p1.00:   103424.000 ns/op
+
+Iteration   4: 1842.499 ±(99.9%) 34.156 ns/op
+                 p0.00:   693.000 ns/op
+                 p0.50:   1330.000 ns/op
+                 p0.90:   2976.000 ns/op
+                 p0.95:   4104.000 ns/op
+                 p0.99:   7088.320 ns/op
+                 p0.999:  23572.864 ns/op
+                 p0.9999: 70869.606 ns/op
+                 p1.00:   99456.000 ns/op
+
+Iteration   5: 1934.097 ±(99.9%) 47.500 ns/op
+                 p0.00:   672.000 ns/op
+                 p0.50:   1350.000 ns/op
+                 p0.90:   3024.000 ns/op
+                 p0.95:   4408.000 ns/op
+                 p0.99:   8064.000 ns/op
+                 p0.999:  30021.888 ns/op
+                 p0.9999: 124349.901 ns/op
+                 p1.00:   136448.000 ns/op
+
+
+# Run progress: 92.00% complete, ETA 00:10:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 3290.386 ±(99.9%) 150.101 ns/op
+# Warmup Iteration   2: 2065.087 ±(99.9%) 45.875 ns/op
+# Warmup Iteration   3: 1902.150 ±(99.9%) 33.204 ns/op
+# Warmup Iteration   4: 1767.054 ±(99.9%) 30.357 ns/op
+# Warmup Iteration   5: 1809.984 ±(99.9%) 35.763 ns/op
+Iteration   1: 1889.664 ±(99.9%) 45.465 ns/op
+                 p0.00:   777.000 ns/op
+                 p0.50:   1330.000 ns/op
+                 p0.90:   2900.000 ns/op
+                 p0.95:   4240.000 ns/op
+                 p0.99:   7688.960 ns/op
+                 p0.999:  24293.760 ns/op
+                 p0.9999: 115449.293 ns/op
+                 p1.00:   118912.000 ns/op
+
+Iteration   2: 1778.900 ±(99.9%) 30.396 ns/op
+                 p0.00:   776.000 ns/op
+                 p0.50:   1310.000 ns/op
+                 p0.90:   2804.000 ns/op
+                 p0.95:   3612.000 ns/op
+                 p0.99:   6856.000 ns/op
+                 p0.999:  18080.000 ns/op
+                 p0.9999: 59406.950 ns/op
+                 p1.00:   97664.000 ns/op
+
+Iteration   3: 1784.787 ±(99.9%) 43.252 ns/op
+                 p0.00:   803.000 ns/op
+                 p0.50:   1306.000 ns/op
+                 p0.90:   2808.000 ns/op
+                 p0.95:   3500.000 ns/op
+                 p0.99:   6744.000 ns/op
+                 p0.999:  22852.352 ns/op
+                 p0.9999: 136289.894 ns/op
+                 p1.00:   193536.000 ns/op
+
+Iteration   4: 1787.687 ±(99.9%) 35.283 ns/op
+                 p0.00:   784.000 ns/op
+                 p0.50:   1306.000 ns/op
+                 p0.90:   2804.000 ns/op
+                 p0.95:   3731.600 ns/op
+                 p0.99:   6856.000 ns/op
+                 p0.999:  23418.432 ns/op
+                 p0.9999: 63142.950 ns/op
+                 p1.00:   157184.000 ns/op
+
+Iteration   5: 1795.521 ±(99.9%) 34.535 ns/op
+                 p0.00:   783.000 ns/op
+                 p0.50:   1312.000 ns/op
+                 p0.90:   2840.000 ns/op
+                 p0.95:   3689.600 ns/op
+                 p0.99:   6670.080 ns/op
+                 p0.999:  20921.216 ns/op
+                 p0.9999: 79238.451 ns/op
+                 p1.00:   124160.000 ns/op
+
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  N = 813891
+  mean =   1814.381 ±(99.9%) 7.718 ns/op
+
+  Histogram, ns/op:
+    [     0.000,  25000.000) = 813168 
+    [ 25000.000,  50000.000) = 541 
+    [ 50000.000,  75000.000) = 88 
+    [ 75000.000, 100000.000) = 43 
+    [100000.000, 125000.000) = 29 
+    [125000.000, 150000.000) = 11 
+    [150000.000, 175000.000) = 5 
+    [175000.000, 200000.000) = 2 
+    [200000.000, 225000.000) = 1 
+    [225000.000, 250000.000) = 2 
+    [250000.000, 275000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) =    600.000 ns/op
+     p(50.0000) =   1304.000 ns/op
+     p(90.0000) =   2900.000 ns/op
+     p(95.0000) =   3952.000 ns/op
+     p(99.0000) =   7152.000 ns/op
+     p(99.9000) =  23171.456 ns/op
+     p(99.9900) =  81920.000 ns/op
+     p(99.9990) = 168711.055 ns/op
+     p(99.9999) = 251904.000 ns/op
+    p(100.0000) = 251904.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 93.33% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 3301.625 ±(99.9%) 172.120 ns/op
+# Warmup Iteration   2: 2145.261 ±(99.9%) 57.451 ns/op
+# Warmup Iteration   3: 2099.095 ±(99.9%) 53.349 ns/op
+# Warmup Iteration   4: 1967.959 ±(99.9%) 48.982 ns/op
+# Warmup Iteration   5: 2005.185 ±(99.9%) 45.055 ns/op
+Iteration   1: 1963.661 ±(99.9%) 42.344 ns/op
+                 p0.00:   632.000 ns/op
+                 p0.50:   1308.000 ns/op
+                 p0.90:   3368.000 ns/op
+                 p0.95:   4552.000 ns/op
+                 p0.99:   9422.240 ns/op
+                 p0.999:  28750.240 ns/op
+                 p0.9999: 65865.594 ns/op
+                 p1.00:   116992.000 ns/op
+
+Iteration   2: 1989.134 ±(99.9%) 53.483 ns/op
+                 p0.00:   628.000 ns/op
+                 p0.50:   1308.000 ns/op
+                 p0.90:   3372.000 ns/op
+                 p0.95:   4760.000 ns/op
+                 p0.99:   9632.000 ns/op
+                 p0.999:  28755.200 ns/op
+                 p0.9999: 122525.696 ns/op
+                 p1.00:   287744.000 ns/op
+
+Iteration   3: 1980.616 ±(99.9%) 110.804 ns/op
+                 p0.00:   654.000 ns/op
+                 p0.50:   1298.000 ns/op
+                 p0.90:   3344.000 ns/op
+                 p0.95:   4944.000 ns/op
+                 p0.99:   9120.640 ns/op
+                 p0.999:  24132.480 ns/op
+                 p0.9999: 78108.314 ns/op
+                 p1.00:   1029120.000 ns/op
+
+Iteration   4: 2005.000 ±(99.9%) 45.652 ns/op
+                 p0.00:   638.000 ns/op
+                 p0.50:   1314.000 ns/op
+                 p0.90:   3328.000 ns/op
+                 p0.95:   4904.000 ns/op
+                 p0.99:   9297.600 ns/op
+                 p0.999:  29115.840 ns/op
+                 p0.9999: 92170.112 ns/op
+                 p1.00:   116352.000 ns/op
+
+Iteration   5: 1979.508 ±(99.9%) 46.785 ns/op
+                 p0.00:   647.000 ns/op
+                 p0.50:   1300.000 ns/op
+                 p0.90:   3324.000 ns/op
+                 p0.95:   4904.800 ns/op
+                 p0.99:   9360.000 ns/op
+                 p0.999:  33492.608 ns/op
+                 p0.9999: 88459.699 ns/op
+                 p1.00:   136704.000 ns/op
+
+
+# Run progress: 94.67% complete, ETA 00:06:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 3264.112 ±(99.9%) 245.138 ns/op
+# Warmup Iteration   2: 2131.176 ±(99.9%) 158.974 ns/op
+# Warmup Iteration   3: 1992.516 ±(99.9%) 48.493 ns/op
+# Warmup Iteration   4: 1982.939 ±(99.9%) 44.744 ns/op
+# Warmup Iteration   5: 2046.946 ±(99.9%) 49.131 ns/op
+Iteration   1: 1945.066 ±(99.9%) 41.531 ns/op
+                 p0.00:   764.000 ns/op
+                 p0.50:   1310.000 ns/op
+                 p0.90:   3292.000 ns/op
+                 p0.95:   4574.000 ns/op
+                 p0.99:   8798.400 ns/op
+                 p0.999:  26461.120 ns/op
+                 p0.9999: 72997.184 ns/op
+                 p1.00:   157440.000 ns/op
+
+Iteration   2: 1959.619 ±(99.9%) 42.701 ns/op
+                 p0.00:   768.000 ns/op
+                 p0.50:   1318.000 ns/op
+                 p0.90:   3264.000 ns/op
+                 p0.95:   4384.000 ns/op
+                 p0.99:   8930.400 ns/op
+                 p0.999:  27183.040 ns/op
+                 p0.9999: 107284.544 ns/op
+                 p1.00:   126208.000 ns/op
+
+Iteration   3: 1970.988 ±(99.9%) 40.431 ns/op
+                 p0.00:   791.000 ns/op
+                 p0.50:   1320.000 ns/op
+                 p0.90:   3292.000 ns/op
+                 p0.95:   4592.000 ns/op
+                 p0.99:   8999.520 ns/op
+                 p0.999:  26760.256 ns/op
+                 p0.9999: 82178.355 ns/op
+                 p1.00:   114432.000 ns/op
+
+Iteration   4: 1971.805 ±(99.9%) 46.884 ns/op
+                 p0.00:   770.000 ns/op
+                 p0.50:   1318.000 ns/op
+                 p0.90:   3284.000 ns/op
+                 p0.95:   4408.000 ns/op
+                 p0.99:   8784.000 ns/op
+                 p0.999:  29118.528 ns/op
+                 p0.9999: 107240.307 ns/op
+                 p1.00:   146432.000 ns/op
+
+Iteration   5: 2055.520 ±(99.9%) 150.429 ns/op
+                 p0.00:   814.000 ns/op
+                 p0.50:   1330.000 ns/op
+                 p0.90:   3356.000 ns/op
+                 p0.95:   4696.000 ns/op
+                 p0.99:   10093.760 ns/op
+                 p0.999:  34914.816 ns/op
+                 p0.9999: 91863.603 ns/op
+                 p1.00:   1433600.000 ns/op
+
+
+# Run progress: 96.00% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 3252.693 ±(99.9%) 160.387 ns/op
+# Warmup Iteration   2: 2105.965 ±(99.9%) 45.915 ns/op
+# Warmup Iteration   3: 1978.323 ±(99.9%) 42.922 ns/op
+# Warmup Iteration   4: 1981.082 ±(99.9%) 44.348 ns/op
+# Warmup Iteration   5: 2009.644 ±(99.9%) 44.305 ns/op
+Iteration   1: 1982.401 ±(99.9%) 43.513 ns/op
+                 p0.00:   828.000 ns/op
+                 p0.50:   1318.000 ns/op
+                 p0.90:   3324.000 ns/op
+                 p0.95:   4825.600 ns/op
+                 p0.99:   9219.840 ns/op
+                 p0.999:  28218.112 ns/op
+                 p0.9999: 83425.792 ns/op
+                 p1.00:   158208.000 ns/op
+
+Iteration   2: 1963.091 ±(99.9%) 45.143 ns/op
+                 p0.00:   838.000 ns/op
+                 p0.50:   1316.000 ns/op
+                 p0.90:   3300.000 ns/op
+                 p0.95:   4454.800 ns/op
+                 p0.99:   9200.000 ns/op
+                 p0.999:  26598.112 ns/op
+                 p0.9999: 84050.214 ns/op
+                 p1.00:   209664.000 ns/op
+
+Iteration   3: 1953.249 ±(99.9%) 42.512 ns/op
+                 p0.00:   855.000 ns/op
+                 p0.50:   1306.000 ns/op
+                 p0.90:   3280.000 ns/op
+                 p0.95:   4600.000 ns/op
+                 p0.99:   8976.000 ns/op
+                 p0.999:  25566.400 ns/op
+                 p0.9999: 90771.200 ns/op
+                 p1.00:   164352.000 ns/op
+
+Iteration   4: 1937.051 ±(99.9%) 37.388 ns/op
+                 p0.00:   832.000 ns/op
+                 p0.50:   1312.000 ns/op
+                 p0.90:   3276.400 ns/op
+                 p0.95:   4340.400 ns/op
+                 p0.99:   8720.000 ns/op
+                 p0.999:  26199.744 ns/op
+                 p0.9999: 59901.011 ns/op
+                 p1.00:   84864.000 ns/op
+
+Iteration   5: 2013.345 ±(99.9%) 165.358 ns/op
+                 p0.00:   854.000 ns/op
+                 p0.50:   1308.000 ns/op
+                 p0.90:   3304.000 ns/op
+                 p0.95:   4384.000 ns/op
+                 p0.99:   9184.000 ns/op
+                 p0.999:  27596.544 ns/op
+                 p0.9999: 124272.896 ns/op
+                 p1.00:   1579008.000 ns/op
+
+
+# Run progress: 97.33% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 3274.359 ±(99.9%) 186.266 ns/op
+# Warmup Iteration   2: 2076.269 ±(99.9%) 54.612 ns/op
+# Warmup Iteration   3: 2021.868 ±(99.9%) 164.801 ns/op
+# Warmup Iteration   4: 1981.076 ±(99.9%) 44.646 ns/op
+# Warmup Iteration   5: 1972.385 ±(99.9%) 38.203 ns/op
+Iteration   1: 1950.756 ±(99.9%) 43.675 ns/op
+                 p0.00:   702.000 ns/op
+                 p0.50:   1322.000 ns/op
+                 p0.90:   3280.000 ns/op
+                 p0.95:   4408.000 ns/op
+                 p0.99:   9012.960 ns/op
+                 p0.999:  32797.216 ns/op
+                 p0.9999: 89450.803 ns/op
+                 p1.00:   95360.000 ns/op
+
+Iteration   2: 2023.365 ±(99.9%) 56.478 ns/op
+                 p0.00:   631.000 ns/op
+                 p0.50:   1340.000 ns/op
+                 p0.90:   3356.000 ns/op
+                 p0.95:   4872.000 ns/op
+                 p0.99:   9724.320 ns/op
+                 p0.999:  29732.960 ns/op
+                 p0.9999: 166755.738 ns/op
+                 p1.00:   212736.000 ns/op
+
+Iteration   3: 2033.400 ±(99.9%) 174.382 ns/op
+                 p0.00:   671.000 ns/op
+                 p0.50:   1322.000 ns/op
+                 p0.90:   3268.000 ns/op
+                 p0.95:   4680.000 ns/op
+                 p0.99:   9218.080 ns/op
+                 p0.999:  30441.728 ns/op
+                 p0.9999: 118410.842 ns/op
+                 p1.00:   1660928.000 ns/op
+
+Iteration   4: 1978.224 ±(99.9%) 49.799 ns/op
+                 p0.00:   685.000 ns/op
+                 p0.50:   1322.000 ns/op
+                 p0.90:   3316.000 ns/op
+                 p0.95:   4496.000 ns/op
+                 p0.99:   9289.440 ns/op
+                 p0.999:  29744.256 ns/op
+                 p0.9999: 120636.851 ns/op
+                 p1.00:   144128.000 ns/op
+
+Iteration   5: 2035.795 ±(99.9%) 53.875 ns/op
+                 p0.00:   681.000 ns/op
+                 p0.50:   1348.000 ns/op
+                 p0.90:   3356.000 ns/op
+                 p0.95:   5000.000 ns/op
+                 p0.99:   9536.000 ns/op
+                 p0.999:  31307.136 ns/op
+                 p0.9999: 100086.426 ns/op
+                 p1.00:   313856.000 ns/op
+
+
+# Run progress: 98.67% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 3164.262 ±(99.9%) 138.077 ns/op
+# Warmup Iteration   2: 2136.454 ±(99.9%) 61.895 ns/op
+# Warmup Iteration   3: 1961.653 ±(99.9%) 48.384 ns/op
+# Warmup Iteration   4: 1946.102 ±(99.9%) 44.158 ns/op
+# Warmup Iteration   5: 2057.017 ±(99.9%) 48.903 ns/op
+Iteration   1: 1952.916 ±(99.9%) 48.823 ns/op
+                 p0.00:   660.000 ns/op
+                 p0.50:   1266.000 ns/op
+                 p0.90:   3304.000 ns/op
+                 p0.95:   4636.000 ns/op
+                 p0.99:   9488.000 ns/op
+                 p0.999:  30160.000 ns/op
+                 p0.9999: 122931.200 ns/op
+                 p1.00:   155648.000 ns/op
+
+Iteration   2: 1961.591 ±(99.9%) 51.313 ns/op
+                 p0.00:   681.000 ns/op
+                 p0.50:   1258.000 ns/op
+                 p0.90:   3292.000 ns/op
+                 p0.95:   4688.000 ns/op
+                 p0.99:   9393.920 ns/op
+                 p0.999:  33147.904 ns/op
+                 p0.9999: 123763.098 ns/op
+                 p1.00:   191744.000 ns/op
+
+Iteration   3: 1975.478 ±(99.9%) 49.037 ns/op
+                 p0.00:   654.000 ns/op
+                 p0.50:   1264.000 ns/op
+                 p0.90:   3316.000 ns/op
+                 p0.95:   4936.400 ns/op
+                 p0.99:   9379.520 ns/op
+                 p0.999:  34337.728 ns/op
+                 p0.9999: 117871.859 ns/op
+                 p1.00:   133120.000 ns/op
+
+Iteration   4: 1939.393 ±(99.9%) 40.911 ns/op
+                 p0.00:   634.000 ns/op
+                 p0.50:   1268.000 ns/op
+                 p0.90:   3320.000 ns/op
+                 p0.95:   4816.000 ns/op
+                 p0.99:   9202.560 ns/op
+                 p0.999:  25952.000 ns/op
+                 p0.9999: 87302.067 ns/op
+                 p1.00:   124544.000 ns/op
+
+Iteration   5: 2017.456 ±(99.9%) 50.732 ns/op
+                 p0.00:   667.000 ns/op
+                 p0.50:   1278.000 ns/op
+                 p0.90:   3416.000 ns/op
+                 p0.95:   5192.000 ns/op
+                 p0.99:   10423.040 ns/op
+                 p0.999:  33749.120 ns/op
+                 p0.9999: 119164.237 ns/op
+                 p1.00:   185600.000 ns/op
+
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  N = 816320
+  mean =   1981.456 ±(99.9%) 14.868 ns/op
+
+  Histogram, ns/op:
+    [      0.000,  125000.000) = 816286 
+    [ 125000.000,  250000.000) = 28 
+    [ 250000.000,  375000.000) = 2 
+    [ 375000.000,  500000.000) = 0 
+    [ 500000.000,  625000.000) = 0 
+    [ 625000.000,  750000.000) = 0 
+    [ 750000.000,  875000.000) = 0 
+    [ 875000.000, 1000000.000) = 0 
+    [1000000.000, 1125000.000) = 1 
+    [1125000.000, 1250000.000) = 0 
+    [1250000.000, 1375000.000) = 0 
+    [1375000.000, 1500000.000) = 1 
+    [1500000.000, 1625000.000) = 1 
+    [1625000.000, 1750000.000) = 1 
+    [1750000.000, 1875000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) =    628.000 ns/op
+     p(50.0000) =   1308.000 ns/op
+     p(90.0000) =   3316.000 ns/op
+     p(95.0000) =   4672.000 ns/op
+     p(99.0000) =   9280.000 ns/op
+     p(99.9000) =  29397.728 ns/op
+     p(99.9900) =  92429.274 ns/op
+     p(99.9990) = 206739.277 ns/op
+     p(99.9999) = 1660928.000 ns/op
+    p(100.0000) = 1660928.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+Iteration   1: 1709264.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 5
+Iteration   1: 1197094.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 3 of 5
+Iteration   1: 1198490.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+Iteration   1: 1245558.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+Iteration   1: 1195129.000 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  N = 5
+  mean = 1309107.000 ±(99.9%) 865192.043 ns/op
+
+  Histogram, ns/op:
+    [1100000.000, 1150000.000) = 0 
+    [1150000.000, 1200000.000) = 3 
+    [1200000.000, 1250000.000) = 1 
+    [1250000.000, 1300000.000) = 0 
+    [1300000.000, 1350000.000) = 0 
+    [1350000.000, 1400000.000) = 0 
+    [1400000.000, 1450000.000) = 0 
+    [1450000.000, 1500000.000) = 0 
+    [1500000.000, 1550000.000) = 0 
+    [1550000.000, 1600000.000) = 0 
+    [1600000.000, 1650000.000) = 0 
+    [1650000.000, 1700000.000) = 0 
+    [1700000.000, 1750000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) = 1195129.000 ns/op
+     p(50.0000) = 1198490.000 ns/op
+     p(90.0000) = 1709264.000 ns/op
+     p(95.0000) = 1709264.000 ns/op
+     p(99.0000) = 1709264.000 ns/op
+     p(99.9000) = 1709264.000 ns/op
+     p(99.9900) = 1709264.000 ns/op
+     p(99.9990) = 1709264.000 ns/op
+     p(99.9999) = 1709264.000 ns/op
+    p(100.0000) = 1709264.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+Iteration   1: 1192426.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 5
+Iteration   1: 1215476.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 3 of 5
+Iteration   1: 1288896.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+Iteration   1: 1337828.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+Iteration   1: 1261471.000 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  N = 5
+  mean = 1259219.400 ±(99.9%) 223203.910 ns/op
+
+  Histogram, ns/op:
+    [1100000.000, 1125000.000) = 0 
+    [1125000.000, 1150000.000) = 0 
+    [1150000.000, 1175000.000) = 0 
+    [1175000.000, 1200000.000) = 1 
+    [1200000.000, 1225000.000) = 1 
+    [1225000.000, 1250000.000) = 0 
+    [1250000.000, 1275000.000) = 1 
+    [1275000.000, 1300000.000) = 1 
+    [1300000.000, 1325000.000) = 0 
+    [1325000.000, 1350000.000) = 1 
+    [1350000.000, 1375000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) = 1192426.000 ns/op
+     p(50.0000) = 1261471.000 ns/op
+     p(90.0000) = 1337828.000 ns/op
+     p(95.0000) = 1337828.000 ns/op
+     p(99.0000) = 1337828.000 ns/op
+     p(99.9000) = 1337828.000 ns/op
+     p(99.9900) = 1337828.000 ns/op
+     p(99.9990) = 1337828.000 ns/op
+     p(99.9999) = 1337828.000 ns/op
+    p(100.0000) = 1337828.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+Iteration   1: 3332653.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 5
+Iteration   1: 5931184.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 3 of 5
+Iteration   1: 3627109.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+Iteration   1: 4299656.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+Iteration   1: 3694095.000 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  N = 5
+  mean = 4176939.400 ±(99.9%) 4011284.918 ns/op
+
+  Histogram, ns/op:
+    [3000000.000, 3250000.000) = 0 
+    [3250000.000, 3500000.000) = 1 
+    [3500000.000, 3750000.000) = 2 
+    [3750000.000, 4000000.000) = 0 
+    [4000000.000, 4250000.000) = 0 
+    [4250000.000, 4500000.000) = 1 
+    [4500000.000, 4750000.000) = 0 
+    [4750000.000, 5000000.000) = 0 
+    [5000000.000, 5250000.000) = 0 
+    [5250000.000, 5500000.000) = 0 
+    [5500000.000, 5750000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) = 3332653.000 ns/op
+     p(50.0000) = 3694095.000 ns/op
+     p(90.0000) = 5931184.000 ns/op
+     p(95.0000) = 5931184.000 ns/op
+     p(99.0000) = 5931184.000 ns/op
+     p(99.9000) = 5931184.000 ns/op
+     p(99.9900) = 5931184.000 ns/op
+     p(99.9990) = 5931184.000 ns/op
+     p(99.9999) = 5931184.000 ns/op
+    p(100.0000) = 5931184.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+Iteration   1: 539097.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 5
+Iteration   1: 784045.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 3 of 5
+Iteration   1: 504408.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+Iteration   1: 515416.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+Iteration   1: 523758.000 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  N = 5
+  mean = 573344.800 ±(99.9%) 456160.602 ns/op
+
+  Histogram, ns/op:
+    [500000.000, 525000.000) = 3 
+    [525000.000, 550000.000) = 1 
+    [550000.000, 575000.000) = 0 
+    [575000.000, 600000.000) = 0 
+    [600000.000, 625000.000) = 0 
+    [625000.000, 650000.000) = 0 
+    [650000.000, 675000.000) = 0 
+    [675000.000, 700000.000) = 0 
+    [700000.000, 725000.000) = 0 
+    [725000.000, 750000.000) = 0 
+    [750000.000, 775000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) = 504408.000 ns/op
+     p(50.0000) = 523758.000 ns/op
+     p(90.0000) = 784045.000 ns/op
+     p(95.0000) = 784045.000 ns/op
+     p(99.0000) = 784045.000 ns/op
+     p(99.9000) = 784045.000 ns/op
+     p(99.9900) = 784045.000 ns/op
+     p(99.9990) = 784045.000 ns/op
+     p(99.9999) = 784045.000 ns/op
+    p(100.0000) = 784045.000 ns/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+Iteration   1: 333549.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 5
+Iteration   1: 337873.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 3 of 5
+Iteration   1: 377187.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+Iteration   1: 374915.000 ns/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+Iteration   1: 338827.000 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  N = 5
+  mean = 352470.200 ±(99.9%) 83300.301 ns/op
+
+  Histogram, ns/op:
+    [330000.000, 335000.000) = 1 
+    [335000.000, 340000.000) = 2 
+    [340000.000, 345000.000) = 0 
+    [345000.000, 350000.000) = 0 
+    [350000.000, 355000.000) = 0 
+    [355000.000, 360000.000) = 0 
+    [360000.000, 365000.000) = 0 
+    [365000.000, 370000.000) = 0 
+    [370000.000, 375000.000) = 1 
+
+  Percentiles, ns/op:
+      p(0.0000) = 333549.000 ns/op
+     p(50.0000) = 338827.000 ns/op
+     p(90.0000) = 377187.000 ns/op
+     p(95.0000) = 377187.000 ns/op
+     p(99.0000) = 377187.000 ns/op
+     p(99.9000) = 377187.000 ns/op
+     p(99.9900) = 377187.000 ns/op
+     p(99.9990) = 377187.000 ns/op
+     p(99.9999) = 377187.000 ns/op
+    p(100.0000) = 377187.000 ns/op
+
+
+# Run complete. Total time: 02:05:24
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                        Mode     Cnt        Score         Error   Units
+ECDSABenchmark.benchmarkKeyGeneration           thrpt      25       ≈ 10⁻⁵                ops/ns
+ECDSABenchmark.benchmarkSigning                 thrpt      25       ≈ 10⁻⁶                ops/ns
+ECDSABenchmark.benchmarkVerification            thrpt      25       ≈ 10⁻⁶                ops/ns
+ECDSABenchmark.measureCpuUsage                  thrpt      25       ≈ 10⁻³                ops/ns
+ECDSABenchmark.measureMemoryUsage               thrpt      25       ≈ 10⁻³                ops/ns
+ECDSABenchmark.benchmarkKeyGeneration            avgt      25    60841.443 ±     787.460   ns/op
+ECDSABenchmark.benchmarkSigning                  avgt      25   257536.795 ±    9763.690   ns/op
+ECDSABenchmark.benchmarkVerification             avgt      25   430824.939 ±    4657.500   ns/op
+ECDSABenchmark.measureCpuUsage                   avgt      25     1845.129 ±      31.142   ns/op
+ECDSABenchmark.measureMemoryUsage                avgt      25     1967.097 ±      28.771   ns/op
+ECDSABenchmark.benchmarkKeyGeneration          sample  685919    56525.603 ±     130.411   ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.00    sample            49088.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.50    sample            53760.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.90    sample            58368.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.95    sample            65664.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.99    sample           103936.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.999   sample           221460.480                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p0.9999  sample          1564672.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration:p1.00    sample          6864896.000                 ns/op
+ECDSABenchmark.benchmarkSigning                sample  447108   250222.542 ±     502.488   ns/op
+ECDSABenchmark.benchmarkSigning:p0.00          sample           216064.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.50          sample           233472.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.90          sample           266240.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.95          sample           300032.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.99          sample           442880.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.999         sample          1818624.000                 ns/op
+ECDSABenchmark.benchmarkSigning:p0.9999        sample          2085456.077                 ns/op
+ECDSABenchmark.benchmarkSigning:p1.00          sample          3739648.000                 ns/op
+ECDSABenchmark.benchmarkVerification           sample  337173   428878.523 ±     889.748   ns/op
+ECDSABenchmark.benchmarkVerification:p0.00     sample           345600.000                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.50     sample           397824.000                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.90     sample           479232.000                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.95     sample           544768.000                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.99     sample           880906.240                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.999    sample          2133303.296                 ns/op
+ECDSABenchmark.benchmarkVerification:p0.9999   sample          2421893.530                 ns/op
+ECDSABenchmark.benchmarkVerification:p1.00     sample          7512064.000                 ns/op
+ECDSABenchmark.measureCpuUsage                 sample  813891     1814.381 ±       7.718   ns/op
+ECDSABenchmark.measureCpuUsage:p0.00           sample              600.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.50           sample             1304.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.90           sample             2900.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.95           sample             3952.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.99           sample             7152.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.999          sample            23171.456                 ns/op
+ECDSABenchmark.measureCpuUsage:p0.9999         sample            81920.000                 ns/op
+ECDSABenchmark.measureCpuUsage:p1.00           sample           251904.000                 ns/op
+ECDSABenchmark.measureMemoryUsage              sample  816320     1981.456 ±      14.868   ns/op
+ECDSABenchmark.measureMemoryUsage:p0.00        sample              628.000                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.50        sample             1308.000                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.90        sample             3316.000                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.95        sample             4672.000                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.99        sample             9280.000                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.999       sample            29397.728                 ns/op
+ECDSABenchmark.measureMemoryUsage:p0.9999      sample            92429.274                 ns/op
+ECDSABenchmark.measureMemoryUsage:p1.00        sample          1660928.000                 ns/op
+ECDSABenchmark.benchmarkKeyGeneration              ss       5  1309107.000 ±  865192.043   ns/op
+ECDSABenchmark.benchmarkSigning                    ss       5  1259219.400 ±  223203.910   ns/op
+ECDSABenchmark.benchmarkVerification               ss       5  4176939.400 ± 4011284.918   ns/op
+ECDSABenchmark.measureCpuUsage                     ss       5   573344.800 ±  456160.602   ns/op
+ECDSABenchmark.measureMemoryUsage                  ss       5   352470.200 ±   83300.301   ns/op

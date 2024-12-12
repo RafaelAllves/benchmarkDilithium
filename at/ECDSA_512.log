@@ -1,0 +1,440 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkKeyGeneration
+
+# Run progress: 0.00% complete, ETA 00:04:10
+# Fork: 1 of 5
+# Warmup Iteration   1: 133505.444 ns/op
+# Warmup Iteration   2: 71017.072 ns/op
+# Warmup Iteration   3: 65006.029 ns/op
+# Warmup Iteration   4: 57000.012 ns/op
+# Warmup Iteration   5: 57683.863 ns/op
+Iteration   1: 57883.742 ns/op
+Iteration   2: 57492.218 ns/op
+Iteration   3: 59071.320 ns/op
+Iteration   4: 58454.048 ns/op
+Iteration   5: 56301.847 ns/op
+
+# Run progress: 4.00% complete, ETA 00:04:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 113344.678 ns/op
+# Warmup Iteration   2: 61805.092 ns/op
+# Warmup Iteration   3: 57765.500 ns/op
+# Warmup Iteration   4: 56210.298 ns/op
+# Warmup Iteration   5: 57005.923 ns/op
+Iteration   1: 57278.883 ns/op
+Iteration   2: 56420.996 ns/op
+Iteration   3: 57007.422 ns/op
+Iteration   4: 55995.945 ns/op
+Iteration   5: 55957.916 ns/op
+
+# Run progress: 8.00% complete, ETA 00:03:54
+# Fork: 3 of 5
+# Warmup Iteration   1: 117177.140 ns/op
+# Warmup Iteration   2: 64612.095 ns/op
+# Warmup Iteration   3: 57256.400 ns/op
+# Warmup Iteration   4: 58711.626 ns/op
+# Warmup Iteration   5: 55813.528 ns/op
+Iteration   1: 56371.351 ns/op
+Iteration   2: 55979.308 ns/op
+Iteration   3: 56705.869 ns/op
+Iteration   4: 56479.014 ns/op
+Iteration   5: 55955.448 ns/op
+
+# Run progress: 12.00% complete, ETA 00:03:43
+# Fork: 4 of 5
+# Warmup Iteration   1: 97893.521 ns/op
+# Warmup Iteration   2: 64616.566 ns/op
+# Warmup Iteration   3: 58419.452 ns/op
+# Warmup Iteration   4: 57639.434 ns/op
+# Warmup Iteration   5: 55868.372 ns/op
+Iteration   1: 59801.036 ns/op
+Iteration   2: 56390.158 ns/op
+Iteration   3: 57706.182 ns/op
+Iteration   4: 55440.312 ns/op
+Iteration   5: 56965.397 ns/op
+
+# Run progress: 16.00% complete, ETA 00:03:33
+# Fork: 5 of 5
+# Warmup Iteration   1: 96554.063 ns/op
+# Warmup Iteration   2: 65731.567 ns/op
+# Warmup Iteration   3: 57183.806 ns/op
+# Warmup Iteration   4: 56652.812 ns/op
+# Warmup Iteration   5: 56540.297 ns/op
+Iteration   1: 56829.447 ns/op
+Iteration   2: 56434.680 ns/op
+Iteration   3: 56480.047 ns/op
+Iteration   4: 55635.311 ns/op
+Iteration   5: 56036.415 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkKeyGeneration":
+  56842.972 ±(99.9%) 798.221 ns/op [Average]
+  (min, avg, max) = (55440.312, 56842.972, 59801.036), stdev = 1065.602
+  CI (99.9%): [56044.752, 57641.193] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkSigning
+
+# Run progress: 20.00% complete, ETA 00:03:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 338586.329 ns/op
+# Warmup Iteration   2: 268633.417 ns/op
+# Warmup Iteration   3: 272497.574 ns/op
+# Warmup Iteration   4: 261232.985 ns/op
+# Warmup Iteration   5: 266265.366 ns/op
+Iteration   1: 254033.150 ns/op
+Iteration   2: 258586.860 ns/op
+Iteration   3: 256078.151 ns/op
+Iteration   4: 250618.259 ns/op
+Iteration   5: 253434.861 ns/op
+
+# Run progress: 24.00% complete, ETA 00:03:13
+# Fork: 2 of 5
+# Warmup Iteration   1: 326013.588 ns/op
+# Warmup Iteration   2: 266136.842 ns/op
+# Warmup Iteration   3: 264134.822 ns/op
+# Warmup Iteration   4: 252600.604 ns/op
+# Warmup Iteration   5: 262274.681 ns/op
+Iteration   1: 252925.569 ns/op
+Iteration   2: 255173.135 ns/op
+Iteration   3: 261188.339 ns/op
+Iteration   4: 259709.067 ns/op
+Iteration   5: 251979.374 ns/op
+
+# Run progress: 28.00% complete, ETA 00:03:03
+# Fork: 3 of 5
+# Warmup Iteration   1: 348894.761 ns/op
+# Warmup Iteration   2: 259575.213 ns/op
+# Warmup Iteration   3: 266204.939 ns/op
+# Warmup Iteration   4: 255636.941 ns/op
+# Warmup Iteration   5: 266198.807 ns/op
+Iteration   1: 268280.963 ns/op
+Iteration   2: 257032.244 ns/op
+Iteration   3: 254640.261 ns/op
+Iteration   4: 254005.075 ns/op
+Iteration   5: 254176.609 ns/op
+
+# Run progress: 32.00% complete, ETA 00:02:52
+# Fork: 4 of 5
+# Warmup Iteration   1: 354571.525 ns/op
+# Warmup Iteration   2: 276033.246 ns/op
+# Warmup Iteration   3: 270714.503 ns/op
+# Warmup Iteration   4: 257383.335 ns/op
+# Warmup Iteration   5: 276181.128 ns/op
+Iteration   1: 268525.805 ns/op
+Iteration   2: 260459.214 ns/op
+Iteration   3: 258324.769 ns/op
+Iteration   4: 258121.491 ns/op
+Iteration   5: 257182.988 ns/op
+
+# Run progress: 36.00% complete, ETA 00:02:42
+# Fork: 5 of 5
+# Warmup Iteration   1: 337017.848 ns/op
+# Warmup Iteration   2: 259755.345 ns/op
+# Warmup Iteration   3: 266884.949 ns/op
+# Warmup Iteration   4: 258256.528 ns/op
+# Warmup Iteration   5: 263056.407 ns/op
+Iteration   1: 259353.107 ns/op
+Iteration   2: 264144.321 ns/op
+Iteration   3: 255235.099 ns/op
+Iteration   4: 255496.906 ns/op
+Iteration   5: 256307.800 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkSigning":
+  257400.537 ±(99.9%) 3390.505 ns/op [Average]
+  (min, avg, max) = (250618.259, 257400.537, 268525.805), stdev = 4526.227
+  CI (99.9%): [254010.032, 260791.042] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.benchmarkVerification
+
+# Run progress: 40.00% complete, ETA 00:02:32
+# Fork: 1 of 5
+# Warmup Iteration   1: 646169.957 ns/op
+# Warmup Iteration   2: 475235.254 ns/op
+# Warmup Iteration   3: 461191.888 ns/op
+# Warmup Iteration   4: 448608.976 ns/op
+# Warmup Iteration   5: 452050.750 ns/op
+Iteration   1: 466826.538 ns/op
+Iteration   2: 501026.364 ns/op
+Iteration   3: 463424.655 ns/op
+Iteration   4: 442324.274 ns/op
+Iteration   5: 443536.634 ns/op
+
+# Run progress: 44.00% complete, ETA 00:02:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 618468.702 ns/op
+# Warmup Iteration   2: 459034.883 ns/op
+# Warmup Iteration   3: 449038.151 ns/op
+# Warmup Iteration   4: 435318.478 ns/op
+# Warmup Iteration   5: 434346.673 ns/op
+Iteration   1: 443661.325 ns/op
+Iteration   2: 465791.140 ns/op
+Iteration   3: 460844.220 ns/op
+Iteration   4: 426030.701 ns/op
+Iteration   5: 424781.517 ns/op
+
+# Run progress: 48.00% complete, ETA 00:02:12
+# Fork: 3 of 5
+# Warmup Iteration   1: 678451.994 ns/op
+# Warmup Iteration   2: 468412.061 ns/op
+# Warmup Iteration   3: 462547.056 ns/op
+# Warmup Iteration   4: 440208.499 ns/op
+# Warmup Iteration   5: 439676.678 ns/op
+Iteration   1: 448090.780 ns/op
+Iteration   2: 488154.851 ns/op
+Iteration   3: 468586.001 ns/op
+Iteration   4: 432207.051 ns/op
+Iteration   5: 435262.188 ns/op
+
+# Run progress: 52.00% complete, ETA 00:02:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 650053.355 ns/op
+# Warmup Iteration   2: 468708.920 ns/op
+# Warmup Iteration   3: 470200.179 ns/op
+# Warmup Iteration   4: 446114.254 ns/op
+# Warmup Iteration   5: 445738.800 ns/op
+Iteration   1: 472473.314 ns/op
+Iteration   2: 464398.405 ns/op
+Iteration   3: 444148.250 ns/op
+Iteration   4: 441662.666 ns/op
+Iteration   5: 441216.893 ns/op
+
+# Run progress: 56.00% complete, ETA 00:01:51
+# Fork: 5 of 5
+# Warmup Iteration   1: 624708.065 ns/op
+# Warmup Iteration   2: 480166.987 ns/op
+# Warmup Iteration   3: 492343.613 ns/op
+# Warmup Iteration   4: 464615.593 ns/op
+# Warmup Iteration   5: 460547.394 ns/op
+Iteration   1: 472755.256 ns/op
+Iteration   2: 502828.896 ns/op
+Iteration   3: 451054.218 ns/op
+Iteration   4: 455244.306 ns/op
+Iteration   5: 453033.943 ns/op
+
+
+Result "org.sample.ECDSABenchmark.benchmarkVerification":
+  456374.575 ±(99.9%) 15554.256 ns/op [Average]
+  (min, avg, max) = (424781.517, 456374.575, 502828.896), stdev = 20764.486
+  CI (99.9%): [440820.320, 471928.831] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureCpuUsage
+
+# Run progress: 60.00% complete, ETA 00:01:41
+# Fork: 1 of 5
+# Warmup Iteration   1: 14722.060 ns/op
+# Warmup Iteration   2: 4516.885 ns/op
+# Warmup Iteration   3: 4423.850 ns/op
+# Warmup Iteration   4: 2187.885 ns/op
+# Warmup Iteration   5: 2392.735 ns/op
+Iteration   1: 2081.662 ns/op
+Iteration   2: 2098.682 ns/op
+Iteration   3: 2007.112 ns/op
+Iteration   4: 1987.199 ns/op
+Iteration   5: 1931.358 ns/op
+
+# Run progress: 64.00% complete, ETA 00:01:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 14491.594 ns/op
+# Warmup Iteration   2: 4485.083 ns/op
+# Warmup Iteration   3: 3222.314 ns/op
+# Warmup Iteration   4: 2355.158 ns/op
+# Warmup Iteration   5: 2062.813 ns/op
+Iteration   1: 2113.727 ns/op
+Iteration   2: 2347.417 ns/op
+Iteration   3: 1934.270 ns/op
+Iteration   4: 2095.826 ns/op
+Iteration   5: 2026.822 ns/op
+
+# Run progress: 68.00% complete, ETA 00:01:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 14579.616 ns/op
+# Warmup Iteration   2: 4888.340 ns/op
+# Warmup Iteration   3: 4402.971 ns/op
+# Warmup Iteration   4: 2141.194 ns/op
+# Warmup Iteration   5: 1948.852 ns/op
+Iteration   1: 2042.218 ns/op
+Iteration   2: 1945.215 ns/op
+Iteration   3: 1916.142 ns/op
+Iteration   4: 2067.520 ns/op
+Iteration   5: 1891.412 ns/op
+
+# Run progress: 72.00% complete, ETA 00:01:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 17492.686 ns/op
+# Warmup Iteration   2: 4773.992 ns/op
+# Warmup Iteration   3: 4424.829 ns/op
+# Warmup Iteration   4: 2118.965 ns/op
+# Warmup Iteration   5: 1963.183 ns/op
+Iteration   1: 1972.359 ns/op
+Iteration   2: 2063.487 ns/op
+Iteration   3: 1934.327 ns/op
+Iteration   4: 2029.001 ns/op
+Iteration   5: 2005.503 ns/op
+
+# Run progress: 76.00% complete, ETA 00:01:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 16304.230 ns/op
+# Warmup Iteration   2: 5267.051 ns/op
+# Warmup Iteration   3: 4355.191 ns/op
+# Warmup Iteration   4: 2433.610 ns/op
+# Warmup Iteration   5: 2018.503 ns/op
+Iteration   1: 2183.957 ns/op
+Iteration   2: 2019.854 ns/op
+Iteration   3: 1985.371 ns/op
+Iteration   4: 1999.614 ns/op
+Iteration   5: 2057.756 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureCpuUsage":
+  2029.512 ±(99.9%) 72.262 ns/op [Average]
+  (min, avg, max) = (1891.412, 2029.512, 2347.417), stdev = 96.467
+  CI (99.9%): [1957.251, 2101.774] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.5, OpenJDK 64-Bit Server VM, 21.0.5+11-LTS
+# VM invoker: /home/rafael/.sdkman/candidates/java/21.0.5-amzn/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ECDSABenchmark.measureMemoryUsage
+
+# Run progress: 80.00% complete, ETA 00:00:50
+# Fork: 1 of 5
+# Warmup Iteration   1: 18213.455 ns/op
+# Warmup Iteration   2: 5003.499 ns/op
+# Warmup Iteration   3: 4262.736 ns/op
+# Warmup Iteration   4: 2330.703 ns/op
+# Warmup Iteration   5: 2074.989 ns/op
+Iteration   1: 2300.147 ns/op
+Iteration   2: 2177.457 ns/op
+Iteration   3: 2012.243 ns/op
+Iteration   4: 2178.551 ns/op
+Iteration   5: 2095.780 ns/op
+
+# Run progress: 84.00% complete, ETA 00:00:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 18687.604 ns/op
+# Warmup Iteration   2: 4850.617 ns/op
+# Warmup Iteration   3: 4000.071 ns/op
+# Warmup Iteration   4: 2112.035 ns/op
+# Warmup Iteration   5: 2171.963 ns/op
+Iteration   1: 2170.270 ns/op
+Iteration   2: 2252.321 ns/op
+Iteration   3: 2071.751 ns/op
+Iteration   4: 2240.158 ns/op
+Iteration   5: 2035.607 ns/op
+
+# Run progress: 88.00% complete, ETA 00:00:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 18308.234 ns/op
+# Warmup Iteration   2: 5078.748 ns/op
+# Warmup Iteration   3: 4135.298 ns/op
+# Warmup Iteration   4: 2598.093 ns/op
+# Warmup Iteration   5: 2670.924 ns/op
+Iteration   1: 2225.916 ns/op
+Iteration   2: 2121.023 ns/op
+Iteration   3: 1973.666 ns/op
+Iteration   4: 2327.709 ns/op
+Iteration   5: 2006.572 ns/op
+
+# Run progress: 92.00% complete, ETA 00:00:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 19205.593 ns/op
+# Warmup Iteration   2: 5231.385 ns/op
+# Warmup Iteration   3: 4507.330 ns/op
+# Warmup Iteration   4: 2164.268 ns/op
+# Warmup Iteration   5: 2157.460 ns/op
+Iteration   1: 2177.729 ns/op
+Iteration   2: 2401.452 ns/op
+Iteration   3: 2327.355 ns/op
+Iteration   4: 2106.030 ns/op
+Iteration   5: 2079.153 ns/op
+
+# Run progress: 96.00% complete, ETA 00:00:10
+# Fork: 5 of 5
+# Warmup Iteration   1: 15446.961 ns/op
+# Warmup Iteration   2: 4879.255 ns/op
+# Warmup Iteration   3: 4434.138 ns/op
+# Warmup Iteration   4: 2285.171 ns/op
+# Warmup Iteration   5: 2125.172 ns/op
+Iteration   1: 2216.296 ns/op
+Iteration   2: 2136.123 ns/op
+Iteration   3: 2017.863 ns/op
+Iteration   4: 2059.282 ns/op
+Iteration   5: 2107.847 ns/op
+
+
+Result "org.sample.ECDSABenchmark.measureMemoryUsage":
+  2152.732 ±(99.9%) 84.910 ns/op [Average]
+  (min, avg, max) = (1973.666, 2152.732, 2401.452), stdev = 113.352
+  CI (99.9%): [2067.822, 2237.642] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:14
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                              Mode  Cnt       Score       Error  Units
+ECDSABenchmark.benchmarkKeyGeneration  avgt   25   56842.972 ±   798.221  ns/op
+ECDSABenchmark.benchmarkSigning        avgt   25  257400.537 ±  3390.505  ns/op
+ECDSABenchmark.benchmarkVerification   avgt   25  456374.575 ± 15554.256  ns/op
+ECDSABenchmark.measureCpuUsage         avgt   25    2029.512 ±    72.262  ns/op
+ECDSABenchmark.measureMemoryUsage      avgt   25    2152.732 ±    84.910  ns/op
